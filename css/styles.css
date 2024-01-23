@@ -371,6 +371,12 @@ header {
   z-index: 999;
 }
 
+@media (max-width: 1920px) {
+  .logo img {
+    width: auto;
+    height: 30px;
+  }
+}
 .menu a {
   position: relative;
   display: block;

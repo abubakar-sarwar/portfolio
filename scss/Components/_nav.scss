@@ -7,18 +7,25 @@ header {
   z-index: 999;
 }
 
+@include breakpoint-down(xxlarge) {
+  .logo img {
+    width: auto;
+    height: 30px;
+  }
+}
+
 .menu {
   a {
     position: relative;
     display: block;
     height: 46px;
     padding: 0 10px;
-    font-size: .8125rem;
+    font-size: 0.8125rem;
     font-weight: 800;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     line-height: 50px;
     text-transform: uppercase;
-    transition: color .2s linear;
+    transition: color 0.2s linear;
 
     &:hover ~ a {
       color: #878a8f;
