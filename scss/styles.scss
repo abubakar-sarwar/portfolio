@@ -1,0 +1,12 @@
+@import "./mixins";
+@import "./variables";
+@import "./globals";
+@import "./colums";
+
+// Components
+@import "./Components/nav";
+@import "./Components/featured";
+@import "./Components/footer";
+
+// Pages
+@import "./Pages/home";
