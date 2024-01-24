@@ -47,6 +47,10 @@
       @include breakpoint-down(xlarge) {
         font-size: 0.6rem;
       }
+
+      @include breakpoint-down(medium) {
+        font-size: 0.4rem;
+      }
     }
     h1.large {
       font-size: 4.1rem;
@@ -224,6 +228,10 @@
     @include breakpoint-down(xxlarge) {
       font-size: 75px;
     }
+
+    @include breakpoint-down(large) {
+      font-size: 50px;
+    }
   }
 }
 
@@ -311,6 +319,14 @@
     flex: 0 0 60%;
     max-width: 60%;
   }
+  @include breakpoint-down(large) {
+    .col-3,
+    .col-7 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  }
   .skills-wrap {
     overflow: hidden;
   }
@@ -388,7 +404,7 @@
         margin-top: 5px;
 
         @include breakpoint-down(xxlarge) {
-          font-size: 15px;
+          font-size: 12px;
         }
       }
     }

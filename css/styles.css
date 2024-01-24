@@ -314,14 +314,19 @@ button:disabled,
   padding-left: 15px;
   margin: 0 auto;
 }
+@media (min-width: 769px) {
+  .container {
+    max-width: 700px;
+  }
+}
 @media (min-width: 993px) {
   .container {
-    padding: 0 40px;
+    max-width: 920px;
   }
 }
 @media (min-width: 1201px) {
   .container {
-    max-width: 1240px;
+    max-width: 1180px;
   }
 }
 @media (min-width: 1921px) {
@@ -407,6 +412,11 @@ header {
   width: calc(100% + 150px);
   border-radius: 0.4rem;
 }
+@media (max-width: 768px) {
+  .featured .featured-img {
+    width: 100%;
+  }
+}
 .featured .featured-img .overlay {
   position: absolute;
   top: 0;
@@ -420,8 +430,10 @@ header {
 .featured.right-flow .featured-img .overlay {
   right: 0;
 }
-.featured.left-flow .featured-img {
-  margin-left: -150px;
+@media (min-width: 769px) {
+  .featured.left-flow .featured-img {
+    margin-left: -150px;
+  }
 }
 .featured .featured-img {
   height: 500px;
@@ -580,7 +592,21 @@ footer {
 footer .col {
   flex: 0 0 25%;
   max-width: 25%;
+  padding: 0 15px;
   margin-right: auto;
+}
+@media (max-width: 768px) {
+  footer .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 579px) {
+  footer .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 15px;
+  }
 }
 footer .sec-title .title {
   color: #0f141e;
@@ -684,6 +710,11 @@ footer .projects a:hover svg {
 @media (max-width: 1200px) {
   .home-top .main-copy h5 {
     font-size: 0.6rem;
+  }
+}
+@media (max-width: 768px) {
+  .home-top .main-copy h5 {
+    font-size: 0.4rem;
   }
 }
 .home-top .main-copy h1.large {
@@ -848,6 +879,11 @@ footer .projects a:hover svg {
     font-size: 75px;
   }
 }
+@media (max-width: 992px) {
+  .sec-title .title {
+    font-size: 50px;
+  }
+}
 
 .about .card-tilt {
   height: 100%;
@@ -917,6 +953,14 @@ footer .projects a:hover svg {
 .skills .col-7 {
   flex: 0 0 60%;
   max-width: 60%;
+}
+@media (max-width: 992px) {
+  .skills .col-3,
+  .skills .col-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
 }
 .skills .skills-wrap {
   overflow: hidden;
@@ -997,6 +1041,6 @@ footer .projects a:hover svg {
 }
 @media (max-width: 1920px) {
   .skills-case .case p {
-    font-size: 15px;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=styles.css.map */

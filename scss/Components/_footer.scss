@@ -4,7 +4,18 @@ footer {
   .col {
     flex: 0 0 25%;
     max-width: 25%;
+    padding: 0 15px;
     margin-right: auto;
+
+    @include breakpoint-down(medium) {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    @include breakpoint-down(small) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding: 15px;
+    }
   }
   .sec-title .title {
     color: $txt-primary;

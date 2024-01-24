@@ -8,11 +8,14 @@
   padding-left: 15px;
   margin: 0 auto;
 
+  @include breakpoint-up(medium) {
+    max-width: 700px;
+  }
   @include breakpoint-up(large) {
-    padding: 0 40px;
+    max-width: 920px;
   }
   @include breakpoint-up(xlarge) {
-    max-width: 1240px;
+    max-width: 1180px;
   }
   @include breakpoint-up(xxlarge) {
     max-width: 1480px;

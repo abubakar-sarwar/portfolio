@@ -292,7 +292,7 @@ export default function Home() {
         <div className="skills sec-pd">
           <div className="container">
             <div className="row">
-              <div className="col-3">
+              <div className="col-3 md-full">
                 <div className="skills-details animate">
                   <div className="sec-title">
                     <h1 className="title">Expertise</h1>
@@ -300,15 +300,15 @@ export default function Home() {
                   <h2 style={{ transitionDelay: ".15s" }}>Front-end Dev</h2>
                   <p style={{ transitionDelay: ".25s" }}>
                     Passionate about UI/UX. Over 3 years of development
-                    experience in HTML5, CSS3, SCSS, JS, ReactJS and NextJS
-                    frameworks.
+                    experience in HTML5, CSS3, SCSS, Tailwind CSS, JS, ReactJS
+                    and NextJS frameworks.
                   </p>
                   <h2 style={{ transitionDelay: ".35s" }} className="mt-1">
                     Back-end Dev
                   </h2>
                   <p style={{ transitionDelay: ".45s" }}>
                     Over 1 years of development experience in REST API Using
-                    Laravel.
+                    Laravel with MYSQL and Node JS with MonogDB.
                   </p>
                   <p style={{ transitionDelay: ".55s" }} className="mt-2">
                     All My Websites/Webapps Are Lovingly Hand Coded, Responsive
@@ -316,7 +316,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-7">
+              <div className="col-7 md-full">
                 <div className="skills-wrap">
                   <div className="skills-case flx animate">
                     <div className="case-group">

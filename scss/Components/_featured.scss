@@ -13,6 +13,10 @@
     width: calc(100% + 150px);
     border-radius: 0.4rem;
 
+    @include breakpoint-down(medium) {
+      width: 100%;
+    }
+
     .overlay {
       position: absolute;
       top: 0;
@@ -30,8 +34,10 @@
     right: 0;
   }
 
-  &.left-flow .featured-img {
-    margin-left: -150px;
+  @include breakpoint-up(medium) {
+    &.left-flow .featured-img {
+      margin-left: -150px;
+    }
   }
 
   .featured-img {
