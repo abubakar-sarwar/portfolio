@@ -1,11 +1,24 @@
 .featured {
-  margin-bottom: 200px;
+  margin-bottom: 40px;
+
+  @include breakpoint-up(medium) {
+    margin-bottom: 200px;
+  }
 
   .detail-left {
     text-align: left;
   }
   .detail-right {
     text-align: right;
+  }
+
+  @include breakpoint-down(medium) {
+    .detail-right {
+      margin-top: 30px;
+    }
+    .detail-left {
+      margin-bottom: 30px;
+    }
   }
 
   .featured-img {
@@ -46,6 +59,12 @@
 
     @include breakpoint-down(xxlarge) {
       height: 350px;
+    }
+
+    @include breakpoint-down(small) {
+      width: 100%;
+      height: auto;
+      max-height: 200px;
     }
 
     img {
@@ -208,5 +227,10 @@
 
   &:hover &-skew {
     opacity: 0.83;
+
+    @include breakpoint-down(small) {
+      opacity: 0;
+      display: none;
+    }
   }
 }

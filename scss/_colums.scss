@@ -1,5 +1,9 @@
 .sec-pd {
   padding-top: 140px;
+
+  @include breakpoint-down(medium) {
+    padding-top: 40px;
+  }
 }
 .container {
   position: relative;

@@ -94,7 +94,7 @@ export default function Home() {
                       experience. I enjoy turning ideas into reality by creating
                       practical and visually appealing web applications.
                     </h3>
-                    <nav className="links flx">
+                    <nav className="links flx flx-c">
                       <h4>
                         <Link href="#portfolio" className="scroll-to special">
                           View Projects
@@ -113,6 +113,17 @@ export default function Home() {
               <Link href="#portfolio" className="ic-mouse">
                 <div className="ic-scroll"></div>
               </Link>
+            </div>
+          </div>
+          <div className="container">
+            <div className="flx flx-c flx-jc">
+              <Image
+                src="/assets/bg_home_04.png"
+                alt="abubakar"
+                className="banner_image"
+                width={300}
+                height={300}
+              />
             </div>
           </div>
         </div>
@@ -235,7 +246,7 @@ export default function Home() {
                       </Link>
                     </div>
                     <img
-                      src="/assets/card-insta.webp"
+                      src="/assets/card-insta.png"
                       alt="instagram"
                       className="card-img"
                     />

@@ -3,7 +3,16 @@
   position: relative;
   width: 100%;
   padding-top: 140px;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 600px;
+
+  @include breakpoint-down(medium) {
+    height: max-content;
+    min-height: max-content;
+  }
+  @include breakpoint-down(small) {
+    padding-top: 80px;
+  }
 
   .bg-img {
     position: absolute;
@@ -21,15 +30,16 @@
     flex: 0 0 55%;
     max-width: 55%;
     padding: 0 15px;
-  }
 
-  .container {
-    position: absolute;
-    display: block;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
+    @include breakpoint-down(medium) {
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+
+    @include breakpoint-down(small) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
   }
 
   .main-copy {
@@ -47,10 +57,6 @@
       @include breakpoint-down(xlarge) {
         font-size: 0.6rem;
       }
-
-      @include breakpoint-down(medium) {
-        font-size: 0.4rem;
-      }
     }
     h1.large {
       font-size: 4.1rem;
@@ -63,6 +69,16 @@
       @include breakpoint-down(xxlarge) {
         font-size: 2.7rem;
         line-height: 3.3rem;
+      }
+
+      @include breakpoint-down(medium) {
+        font-size: 2rem;
+        line-height: 2.7rem;
+      }
+
+      @include breakpoint-down(small) {
+        font-size: 1.7rem;
+        line-height: 2.2rem;
       }
     }
     h3 {
@@ -79,6 +95,16 @@
         font-size: 1.2rem;
         line-height: 1.5rem;
       }
+
+      @include breakpoint-down(medium) {
+        font-size: 1rem;
+        line-height: 1.3rem;
+      }
+
+      @include breakpoint-down(small) {
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
     }
     .links {
       margin-top: 20px;
@@ -87,6 +113,13 @@
       span,
       h4 {
         font-size: 1.125rem;
+
+        @include breakpoint-down(medium) {
+          font-size: 1rem;
+        }
+        @include breakpoint-down(small) {
+          font-size: 0.8rem;
+        }
       }
 
       h4 {
@@ -153,6 +186,15 @@
     }
   }
 
+  .banner_image {
+    @include breakpoint-up(medium) {
+      display: none;
+    }
+
+    width: 100%;
+    object-fit: contain;
+  }
+
   .home-bg {
     display: block;
     position: absolute;
@@ -164,8 +206,17 @@
     background: url(/assets/bg_home_04.png) no-repeat;
     background-size: auto 100%;
     background-position: top 0 right 110px;
-    z-index: 1;
+    z-index: 0;
     animation: fadeIn 1s linear;
+
+    @include breakpoint-down(medium) {
+      background-size: auto 60%;
+      background-position: bottom 50% right 15px;
+    }
+
+    @include breakpoint-down(small) {
+      background: none;
+    }
   }
 }
 
@@ -213,10 +264,18 @@
   will-change: transform;
   transition: transform 0.15s, opacity 0.14s;
   z-index: 1000;
+
+  @include breakpoint-down(small) {
+    display: none;
+  }
 }
 
 .sec-title {
   margin-bottom: 95px;
+
+  @include breakpoint-down(medium) {
+    margin-bottom: 40px;
+  }
 
   .title {
     font-size: 100px;
@@ -253,6 +312,10 @@
     @include breakpoint-down(xxlarge) {
       padding: 40px;
     }
+
+    @include breakpoint-down(medium) {
+      padding: 30px;
+    }
   }
 
   .card-img {
@@ -272,6 +335,14 @@
         font-size: 24px;
       }
     }
+
+    @include breakpoint-down(small) {
+      font-size: 19px;
+
+      strong {
+        font-size: 19px;
+      }
+    }
   }
 
   svg {
@@ -281,6 +352,10 @@
 
     @include breakpoint-down(xxlarge) {
       font-size: 34px;
+    }
+
+    @include breakpoint-down(small) {
+      font-size: 23px;
     }
   }
 
@@ -366,11 +441,38 @@
     transform: perspective(1600px) rotateY(-20deg);
     mask-image: linear-gradient(to left, black 40%, rgba(0, 0, 0, 0) 100%);
 
+    @include breakpoint-down(small) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 40px 0;
+    }
+
+    @include breakpoint-down(small) {
+      transform: none;
+      mask-image: none;
+    }
+
+    @include breakpoint-down(small) {
+      .case-group {
+        padding: 0 10px;
+      }
+    }
+
     .c-mr {
       margin-right: 25px;
     }
     .c-mb {
       margin-bottom: 25px;
+    }
+
+    @include breakpoint-down(small) {
+      .c-mr {
+        margin: 0;
+      }
+      .c-mb {
+        margin-bottom: 10px;
+      }
     }
 
     .case {
@@ -389,6 +491,11 @@
       @include breakpoint-down(xxlarge) {
         width: 110px;
         height: 85px;
+      }
+
+      @include breakpoint-down(small) {
+        width: 100%;
+        height: 90px;
       }
 
       img {
