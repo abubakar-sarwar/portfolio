@@ -1,5 +1,6 @@
-import Footer from "@/components/Footer";
-import Nav from "@/components/Nav";
+import Footer from "@/components/footer";
+import Nav from "@/components/nav";
+import CursorCircle from "@/components/cursorCircle";
 import "@/css/styles.css";
 import type { Metadata } from "next";
 
@@ -23,7 +24,8 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {/* <Nav /> */}
+        <CursorCircle />
+        <Nav />
         <main>{children}</main>
         <Footer />
       </body>

@@ -198,6 +198,10 @@ button:disabled,
   }
 }
 
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 .animate {
   will-change: transform, opacity;
   opacity: 0;

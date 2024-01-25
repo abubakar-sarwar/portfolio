@@ -1,0 +1,91 @@
+import { useEffect } from "react";
+import Link from "next/link";
+import { addTilt, removeTilt } from "@/utils/utils";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { BsArrowRight } from "react-icons/bs";
+
+const WhatsNew = () => {
+
+  useEffect(() => {
+    addTilt()
+  
+    return () => {
+      removeTilt();
+    }
+  }, [])
+
+  return (
+    <div className="container">
+      <div className="about">
+        <div className="sec-title">
+          <h1 className="title animate animate-top">WHAT'S NEW?</h1>
+        </div>
+        <div className="row">
+          <div className="col-50 mb-2">
+            <div className="card-tilt lr-crc">
+              <div className="content">
+                <div className="txt dsc-insta">
+                  <p>
+                    <strong>Social</strong>&nbsp;latest on instagram.
+                  </p>
+                  <Link href="/" target="_blank" className="mt-1 lr-crc">
+                    Discover My Insta&nbsp;
+                    <BsArrowRight />
+                  </Link>
+                </div>
+                <img
+                  src="/assets/card-insta.png"
+                  alt="instagram"
+                  className="card-img"
+                />
+              </div>
+              <div className="card-tilt-skew"></div>
+            </div>
+          </div>
+          <div className="col-50 mb-2">
+            <div className="card-tilt lr-crc">
+              <div className="content">
+                <div className="txt">
+                  <p>
+                    <strong>Get In Touch</strong>&nbsp;on professional
+                    platforms. Feel free to browse my other profiles for a
+                    broader view of my interests and contributions across
+                    the web.
+                  </p>
+                  <ul className="ic-link flx flx-c mt-1">
+                    <li>
+                      <Link
+                        href="/"
+                        target="_blank"
+                        className="ic-git lr-crc"
+                      >
+                        <AiFillGithub />
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/"
+                        target="_blank"
+                        className="ic-live lr-crc"
+                      >
+                        <AiFillLinkedin />
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+                <img
+                  src="/assets/card-git.png"
+                  alt="instagram"
+                  className="card-img"
+                />
+              </div>
+              <div className="card-tilt-skew"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default WhatsNew

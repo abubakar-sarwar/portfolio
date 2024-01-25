@@ -4,25 +4,27 @@ export const initialSkin = (): string => {
   return skin ? skin : "dark";
 }
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate-show');
-    }
-    else {
-      entry.target.classList.remove('animate-show');
-    }    
+export const createObserver = () => {
+  return new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-show');
+      }
+      else {
+        entry.target.classList.remove('animate-show');
+      }    
+    });
+  }, {
+    rootMargin: '0px 0px -20%' // Show after 200px in viewPort 
   });
-}, {
-  rootMargin: '0px 0px -20%' // Show after 200p xin viewPort 
-});
+}
 
-export const addObserver = () => {  
+export const addObserver = (observer: IntersectionObserver) => {  
   const elements = document.querySelectorAll('.animate');
   elements.forEach((el) => observer.observe(el as Element));
 }
 
-export const removeObserver = () => {
+export const removeObserver = (observer: IntersectionObserver) => {
   observer.disconnect();
 }
 

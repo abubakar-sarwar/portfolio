@@ -246,6 +246,10 @@ button:disabled,
   align-items: flex-end;
 }
 
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 .animate {
   will-change: transform, opacity;
   opacity: 0;
@@ -408,7 +412,7 @@ header {
 }
 @media (min-width: 769px) {
   .featured {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
   }
 }
 .featured .detail-left {
