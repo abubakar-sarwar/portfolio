@@ -50,6 +50,17 @@ export default function Home() {
           <img src="/assets/bg_home_2.svg" alt="brand" className="bg-img" />
           <div className="home-bg"></div>
           <div className="container">
+            <div className="flx flx-c flx-jc">
+              <Image
+                src="/assets/bg_home_04.png"
+                alt="abubakar"
+                className="banner_image"
+                width={300}
+                height={300}
+              />
+            </div>
+          </div>
+          <div className="container">
             <div className="wrapper">
               <div className="row">
                 <div className="home-col">
@@ -83,17 +94,6 @@ export default function Home() {
               <Link href="#portfolio" className="ic-mouse">
                 <div className="ic-scroll"></div>
               </Link>
-            </div>
-          </div>
-          <div className="container">
-            <div className="flx flx-c flx-jc">
-              <Image
-                src="/assets/bg_home_04.png"
-                alt="abubakar"
-                className="banner_image"
-                width={300}
-                height={300}
-              />
             </div>
           </div>
         </div>

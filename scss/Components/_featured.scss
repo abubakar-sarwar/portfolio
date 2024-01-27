@@ -214,11 +214,10 @@
     bottom: 0;
     width: 650px;
     height: 650px;
-    background-color: #7ee787;
+    background-color: rgba(#7ee787, 0.7);
     filter: blur(180px);
     border-radius: 300px;
     opacity: 0;
-    mix-blend-mode: soft-light;
     will-change: transform;
     z-index: -1;
     pointer-events: none;

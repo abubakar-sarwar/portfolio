@@ -45,7 +45,7 @@ const Projects = () => {
           const isRight = (index % 2) === 0;
 
           return (
-            <div className={`featured ${isRight ? "right-flow" : "left-flow"}`}>
+            <div className={`featured ${isRight ? "right-flow" : "left-flow"}`} key={index}>
               <div className={`row ${isRight ? "" : "row-reverse"}`}>
 
                 <div className="col-50">

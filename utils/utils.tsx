@@ -15,7 +15,7 @@ export const createObserver = () => {
       }    
     });
   }, {
-    rootMargin: '0px 0px -20%' // Show after 200px in viewPort 
+    rootMargin: '0px 0px -5%' // Show after 200px in viewPort 
   });
 }
 

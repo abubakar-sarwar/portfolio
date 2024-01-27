@@ -11,7 +11,7 @@
     min-height: max-content;
   }
   @include breakpoint-down(small) {
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .bg-img {
@@ -187,11 +187,12 @@
   }
 
   .banner_image {
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(small) {
       display: none;
     }
 
     width: 100%;
+    margin-bottom: -50px;
     object-fit: contain;
   }
 
