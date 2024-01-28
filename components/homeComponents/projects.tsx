@@ -17,12 +17,12 @@ const Projects = () => {
 
   const data: ProjectType[] = [
     {
-      title: "Learning Cafe",
-      description: "A platform for posting courses which are designed as per the Industry demand with full Career Assistance.",
+      title: "Plates for Cars",
+      description: "A platform where automotive enthusiasts unite! Personalize your ride's identity with our cutting-edge online service for designing custom number plates.",
       technologies: ["React", "Laravel", "MySQL"],
-      image: "/assets/project_01.png",
-      gitLink: "/",
-      liveLink: "/",
+      image: "/assets/project_03.png",
+      gitLink: "",
+      liveLink: "https://boostremap.co.uk/",
     },
     {
       title: "Learning Cafe",
@@ -54,6 +54,7 @@ const Projects = () => {
                       src={item?.image}
                       alt="project"
                       className="img-fluid"
+                      style={{ width: "100%" }}
                     />
                     <div className="overlay"></div>
                   </div>

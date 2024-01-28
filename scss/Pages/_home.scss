@@ -440,7 +440,7 @@
     direction: rtl;
     transform-style: preserve-3d;
     transform: perspective(1600px) rotateY(-20deg);
-    mask-image: linear-gradient(to left, black 40%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to left, black 60%, rgba(0, 0, 0, 0) 100%);
 
     @include breakpoint-down(small) {
       display: grid;

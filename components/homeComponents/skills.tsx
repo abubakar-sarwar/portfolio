@@ -141,14 +141,6 @@ const Skills = () => {
                 <div className="case-group c-mr">
                   <div className="case c-mb">
                     <Image
-                      src="/assets/postman.png"
-                      alt="React"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case c-mb">
-                    <Image
                       src="/assets/jquery.png"
                       alt="React"
                       width={130}
@@ -156,8 +148,30 @@ const Skills = () => {
                     />
                     <p>Jquery</p>
                   </div>
-                  <div className="case c-mb"></div>
-                  <div className="case"></div>
+                  <div className="case c-mb">
+                    <Image
+                      src="/assets/npm.png"
+                      alt="React"
+                      width={130}
+                      height={40}
+                    />
+                  </div>
+                  <div className="case c-mb">
+                    <Image
+                      src="/assets/postman.png"
+                      alt="React"
+                      width={130}
+                      height={40}
+                    />
+                  </div>
+                  <div className="case">
+                    <Image
+                      src="/assets/vs_code.png"
+                      alt="React"
+                      width={130}
+                      height={40}
+                    />
+                  </div>
                 </div>
               </div>
             </div>

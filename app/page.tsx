@@ -77,9 +77,9 @@ export default function Home() {
                     </h3>
                     <nav className="links flx flx-c">
                       <h4>
-                        <Link href="/" className="scroll-to special">
+                        <a href="#Projects" className="scroll-to special">
                           View Projects
-                        </Link>
+                        </a>
                       </h4>
                       <span className="ml-1 mr-1">or</span>
                       <h4>
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section id="Projects">
         <Projects />
       </section>
 
