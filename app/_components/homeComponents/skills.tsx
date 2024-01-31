@@ -45,7 +45,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/next.png"
-                      alt="React"
+                      alt="next"
                       width={130}
                       height={40}
                     />
@@ -61,7 +61,7 @@ const Skills = () => {
                   <div className="case">
                     <Image
                       src="/assets/typescript.png"
-                      alt="React"
+                      alt="typescript"
                       width={130}
                       height={40}
                     />
@@ -71,7 +71,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/laravel.png"
-                      alt="React"
+                      alt="laravel"
                       width={130}
                       height={40}
                     />
@@ -79,7 +79,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/mysql.png"
-                      alt="React"
+                      alt="mysql"
                       width={130}
                       height={40}
                     />
@@ -87,7 +87,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/mongoDB.png"
-                      alt="React"
+                      alt="mongoDB"
                       width={130}
                       height={40}
                     />
@@ -95,7 +95,7 @@ const Skills = () => {
                   <div className="case">
                     <Image
                       src="/assets/tailwind.png"
-                      alt="jquery"
+                      alt="tailwind"
                       width={57}
                       height={57}
                     />
@@ -105,7 +105,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/html.png"
-                      alt="React"
+                      alt="html"
                       width={75}
                       height={70}
                     />
@@ -114,7 +114,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/css.png"
-                      alt="React"
+                      alt="css"
                       width={63}
                       height={60}
                     />
@@ -122,8 +122,8 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/js.png"
-                      alt="React"
+                      src="/assets/javascript.png"
+                      alt="javascript"
                       width={57}
                       height={57}
                     />
@@ -132,7 +132,7 @@ const Skills = () => {
                   <div className="case">
                     <Image
                       src="/assets/sass.png"
-                      alt="React"
+                      alt="SASS"
                       width={75}
                       height={65}
                     />
@@ -142,7 +142,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/jquery.png"
-                      alt="React"
+                      alt="jquery"
                       width={130}
                       height={40}
                     />
@@ -151,7 +151,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/npm.png"
-                      alt="React"
+                      alt="npm"
                       width={130}
                       height={40}
                     />
@@ -159,7 +159,7 @@ const Skills = () => {
                   <div className="case c-mb">
                     <Image
                       src="/assets/postman.png"
-                      alt="React"
+                      alt="postman"
                       width={130}
                       height={40}
                     />
@@ -167,7 +167,7 @@ const Skills = () => {
                   <div className="case">
                     <Image
                       src="/assets/vs_code.png"
-                      alt="React"
+                      alt="vs_code"
                       width={130}
                       height={40}
                     />

@@ -15,8 +15,8 @@ const Footer = () => {
               <h1>Contact information</h1>
               <p className="txt-muted">Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away.</p>
               <ul className="flx">
-                <li><Link href="https://github.com/abubakar-sarwar"><AiFillGithub /></Link></li>
-                <li><Link href="https://www.linkedin.com/in/muhammad-abubakar-b238a5298"><AiFillLinkedin /></Link></li>
+                <li><Link target="_blank" href="https://github.com/abubakar-sarwar"><AiFillGithub /></Link></li>
+                <li><Link target="_blank" href="https://www.linkedin.com/in/muhammad-abubakar-b238a5298"><AiFillLinkedin /></Link></li>
               </ul>
             </div>
           </div>
