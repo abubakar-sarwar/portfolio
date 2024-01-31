@@ -25,12 +25,12 @@ const Projects = () => {
       liveLink: "https://boostremap.co.uk/",
     },
     {
-      title: "Learning Cafe",
-      description: "A platform for posting courses which are designed as per the Industry demand with full Career Assistance.",
-      technologies: ["React", "Laravel", "MySQL"],
+      title: "Dream Home",
+      description: "At NBT, I crafted 'Dream Home,' a furniture e-commerce site in collaboration with Dearm Home Project, showcasing my skills in creating compelling online platforms.",
+      technologies: ["Next", "Node", "Express", "MongoDB"],
       image: "/assets/project_02.png",
-      gitLink: "/",
-      liveLink: "/",
+      gitLink: "",
+      liveLink: "https://gldreamhome.com/",
     },
   ]
 

@@ -5,30 +5,81 @@ header {
   width: 100%;
   padding: 30px 40px 0;
   z-index: 999;
-}
-
-@include breakpoint-down(xxlarge) {
-  .logo img {
-    width: auto;
-    height: 30px;
+  
+  @include breakpoint-down(medium) {
+    padding: 15px 20px 0;
   }
 }
 
+.logo {
+  flex-shrink: 0;
+
+  @include breakpoint-down(xxlarge) {
+    img {
+      width: auto;
+      height: 30px;
+    }
+  }
+  @include breakpoint-down(medium) {
+    img {
+      height: 20px ;
+    }
+  }
+}
+
+.menu-toggle {
+  font-size: 2rem;
+
+  svg {
+    pointer-events: none;
+  }
+}
 .menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100svw;
+  height: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  transition: height 500ms ease-in-out;
+  overflow: hidden;
+  
+  &.open-mobile {
+    padding: 20px 10px;
+    height: 100svh;
+  }
+
+  .menu-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 2.4rem;
+    z-index: 100;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s linear, visibility 0.3s linear;
+  }
+
   a {
     position: relative;
     display: block;
-    height: 46px;
     padding: 0 10px;
-    font-size: 0.8125rem;
-    font-weight: 800;
+    font-size: 2.8125rem;
     letter-spacing: 0.2em;
-    line-height: 50px;
+    font-weight: 800;
     text-transform: uppercase;
-    transition: color 0.2s linear;
-
-    &:hover ~ a {
-      color: #878a8f;
-    }
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s linear, visibility 0.3s linear;
+  }
+  
+  &.open-mobile a,
+  &.open-mobile .menu-close {
+    opacity: 1;
+    visibility: visible;
   }
 }
