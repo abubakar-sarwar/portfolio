@@ -34,7 +34,7 @@ const WhatsNew = () => {
                   </Link>
                 </div>
                 <img
-                  src="/assets/card-insta.png"
+                  src="/assets/Insta-card.png"
                   alt="instagram"
                   className="card-img"
                 />
@@ -55,7 +55,7 @@ const WhatsNew = () => {
                   <ul className="ic-link flx flx-c mt-1">
                     <li>
                       <Link
-                        href="/"
+                        href="https://github.com/abubakar-sarwar"
                         target="_blank"
                         className="ic-git lr-crc"
                       >
@@ -64,7 +64,7 @@ const WhatsNew = () => {
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        href="www.linkedin.com/in/muhammad-abubakar-b238a5298"
                         target="_blank"
                         className="ic-live lr-crc"
                       >
