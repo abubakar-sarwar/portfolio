@@ -1,6 +1,6 @@
-import CursorCircle from "@/components/cursorCircle";
-import Footer from "@/components/footer";
-import Nav from "@/components/nav";
+import CursorCircle from "@/app/_components/cursorCircle";
+import Footer from "@/app/_components/footer";
+import Nav from "@/app/_components/nav";
 import "@/css/styles.css";
 import type { Metadata } from "next";
 

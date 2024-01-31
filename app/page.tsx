@@ -7,9 +7,9 @@ import {
   removeObserver,
 } from "@/utils/utils";
 import Image from "next/image";
-import WhatsNew from "@/components/homeComponents/whatsNew";
-import Skills from "@/components/homeComponents/skills";
-import Projects from "@/components/homeComponents/projects";
+import WhatsNew from "@/app/_components/homeComponents/whatsNew";
+import Skills from "@/app/_components/homeComponents/skills";
+import Projects from "@/app/_components/homeComponents/projects";
 
 export default function Home() {
   useEffect(() => {
