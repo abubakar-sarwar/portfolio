@@ -1,5 +1,5 @@
-import Footer from "@/components/footer";
-import Nav from "@/components/nav";
+import Footer from "../components/footer";
+import Nav from "../components/nav";
 import CursorCircle from "@/components/cursorCircle";
 import "@/css/styles.css";
 import type { Metadata } from "next";
