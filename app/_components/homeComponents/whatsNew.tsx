@@ -64,7 +64,7 @@ const WhatsNew = () => {
                     </li>
                     <li>
                       <Link
-                        href="www.linkedin.com/in/muhammad-abubakar-b238a5298"
+                        href="https://www.linkedin.com/in/muhammad-abubakar-b238a5298"
                         target="_blank"
                         className="ic-live lr-crc"
                       >
