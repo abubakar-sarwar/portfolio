@@ -419,17 +419,21 @@ header {
   top: 0;
   bottom: 0;
   right: 0;
-  width: 100svw;
-  height: 0;
-  flex-direction: column;
-  justify-content: center;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   transition: height 500ms ease-in-out;
   overflow: hidden;
+  transform-origin: top;
 }
-.menu.open-mobile {
-  padding: 20px 10px;
-  height: 100svh;
+@keyframes modalFullscreenContainer {
+  0% {
+    height: 0;
+    transform-origin: top;
+  }
+  100% {
+    height: 100vh;
+  }
 }
 .menu .menu-close {
   position: absolute;
@@ -441,6 +445,11 @@ header {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s linear, visibility 0.3s linear;
+}
+.menu .menu-list {
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
 }
 .menu a {
   position: relative;
@@ -454,9 +463,75 @@ header {
   visibility: hidden;
   transition: opacity 0.3s linear, visibility 0.3s linear;
 }
-.menu.open-mobile a, .menu.open-mobile .menu-close {
+@media (max-width: 768px) {
+  .menu a {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 579px) {
+  .menu a {
+    font-size: 1.4rem;
+  }
+}
+
+.menu-container {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.menu-container.open-mobile .menu-list {
+  animation: modalDefaultContent 0.65s 0.45s cubic-bezier(0.3, 1, 0.6, 1) alternate both;
+}
+@keyframes modalDefaultContent {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.menu-container.open-mobile {
   opacity: 1;
   visibility: visible;
+}
+.menu-container.open-mobile a {
+  opacity: 0.8;
+  visibility: visible;
+}
+.menu-container.open-mobile a:hover {
+  opacity: 1;
+}
+.menu-container.open-mobile .menu-close {
+  opacity: 1;
+  visibility: visible;
+}
+.menu-container.open-mobile .menu {
+  animation: modalFullscreenContainer 0.8s cubic-bezier(0.95, 0, 0.15, 1) alternate both;
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu .link-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.6s;
+  pointer-events: none;
+  z-index: -1;
+}
+.menu .link-bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.menu li:hover .link-bg {
+  opacity: 0.2;
 }
 
 .featured {

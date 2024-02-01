@@ -1,3 +1,5 @@
+import { projects } from '@/constants';
+import { ProjectType } from '@/types';
 import Link from 'next/link';
 import React from 'react';
 
@@ -5,42 +7,13 @@ import { AiFillGithub } from 'react-icons/ai';
 import { BsArrowRight } from 'react-icons/bs';
 
 const Projects = () => {
-
-  type ProjectType = {
-    title: string;
-    description: string;
-    technologies: string[];
-    image: string;
-    gitLink: string;
-    liveLink: string;
-  };
-
-  const data: ProjectType[] = [
-    {
-      title: "Plates for Cars",
-      description: "A platform where automotive enthusiasts unite! Personalize your ride's identity with our cutting-edge online service for designing custom number plates.",
-      technologies: ["React", "Laravel", "MySQL"],
-      image: "/assets/project_03.png",
-      gitLink: "",
-      liveLink: "https://boostremap.co.uk/",
-    },
-    {
-      title: "Dream Home",
-      description: "At NBT, I crafted 'Dream Home,' a furniture e-commerce site in collaboration with Dearm Home Project, showcasing my skills in creating compelling online platforms.",
-      technologies: ["Next", "Node", "Express", "MongoDB"],
-      image: "/assets/project_02.png",
-      gitLink: "",
-      liveLink: "https://gldreamhome.com/",
-    },
-  ]
-
   return (
     <div className="about sec-pd">
       <div className="container">
         <div className="sec-title">
           <h1 className="title animate animate-top">Case studies</h1>
         </div>
-        {data?.map((item: ProjectType, index) => {
+        {projects?.map((item: ProjectType, index) => {
 
           const isRight = (index % 2) === 0;
 

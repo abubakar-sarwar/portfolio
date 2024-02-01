@@ -1,3 +1,5 @@
+import { projects } from "@/constants"
+import { ProjectType } from "@/types"
 import Link from "next/link"
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai"
 import { BsArrowRight } from "react-icons/bs"
@@ -24,8 +26,13 @@ const Footer = () => {
             <div className="projects">
               <h1>Latest Projects</h1>
               <ul>
-                <li><Link href="/">Learning Cafe&nbsp;<BsArrowRight /></Link></li>
-                <li><Link href="/">Hirely&nbsp;<BsArrowRight /></Link></li>
+                {projects.map((item: ProjectType, index) => (
+                  <li key={index}>
+                    <Link href={item?.liveLink || item?.gitLink} target="_blank">
+                      {item?.title}&nbsp;<BsArrowRight />
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

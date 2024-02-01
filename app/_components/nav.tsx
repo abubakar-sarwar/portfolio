@@ -20,13 +20,34 @@ const Nav = () => {
         <button onClick={() => setMenuMobile(true)} className="menu-toggle link">
           <FiMenu />
         </button>
-        <ul className={`menu flx flx-c ${menuMobile ? "open-mobile" : ""}`}>
-          <li className="menu-close"><span onClick={() => setMenuMobile(false)}><FiX /></span></li>
-          <li><Link href="/">expertise</Link></li>
-          <li><Link href="/">work</Link></li>
-          <li><Link href="/">experiance</Link></li>
-          <li><Link href="/">contact</Link></li>
-        </ul>
+        <div className={`menu-container ${menuMobile ? "open-mobile" : ""}`}>
+          <div className="menu">
+            <div className="menu-close"><span onClick={() => setMenuMobile(false)}><FiX /></span></div>
+            <ul className="menu-list flx flx-c flx-jc">
+              <li>
+                <div className="link-bg">
+                  <Image src="/assets/projects.jpg" alt="projects" unoptimized width={500} height={500} />
+                </div>
+                <Link href="/">expertise</Link>
+              </li>
+              <li>
+                <div className="link-bg">
+                  <Image src="/assets/about-me.jpg" alt="projects" unoptimized width={500} height={500} />
+                </div>
+                <Link href="/">work</Link>
+              </li>
+              <li>
+                <div className="link-bg">
+                  <Image src="/assets/experience.jpg" alt="projects" unoptimized width={500} height={500} />
+                </div>
+                <Link href="/">experience</Link>
+              </li>
+              <li>
+                <Link href="/">contact</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
   )
