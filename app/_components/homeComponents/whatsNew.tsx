@@ -28,7 +28,7 @@ const WhatsNew = () => {
                   <p>
                     <strong>Social</strong>&nbsp;latest on instagram.
                   </p>
-                  <Link href="/" target="_blank" className="mt-1 lr-crc">
+                  <Link href="https://www.instagram.com/web_dev_pk/" target="_blank" className="mt-1 lr-crc">
                     Discover My Insta&nbsp;
                     <BsArrowRight />
                   </Link>
