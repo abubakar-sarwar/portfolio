@@ -1,0 +1,23 @@
+.about {
+  padding-top: 180px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+
+  &-word {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    color: $dec; 
+  }
+
+  &-title {
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  &-para {
+    font-weight: 500;
+    color: $dec;
+    padding: 0 50px;
+  }
+}

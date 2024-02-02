@@ -1337,4 +1337,25 @@ footer .projects a:hover svg {
   .skills-case .case p {
     font-size: 12px;
   }
+}
+
+.about {
+  padding-top: 180px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.about-word {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: #b9b9c3;
+}
+.about-title {
+  font-weight: 700;
+  line-height: 50px;
+}
+.about-para {
+  font-weight: 500;
+  color: #b9b9c3;
+  padding: 0 50px;
 }/*# sourceMappingURL=styles.css.map */
