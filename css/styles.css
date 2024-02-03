@@ -1308,6 +1308,11 @@ footer .projects a:hover svg {
   text-align: center;
   background-color: white;
   box-shadow: 0 0 13px 0 rgba(47, 43, 61, 0.16);
+  transition: all 0.3s;
+}
+.skills-case .case:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px 5px rgba(47, 43, 61, 0.16);
 }
 @media (max-width: 1920px) {
   .skills-case .case {

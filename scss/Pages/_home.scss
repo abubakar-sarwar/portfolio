@@ -488,6 +488,12 @@
       text-align: center;
       background-color: white;
       box-shadow: 0 0 13px 0 rgba(47, 43, 61, 0.16);
+      transition: all 0.3s;
+      
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 12px 5px rgba(47, 43, 61, 0.16);
+      }
 
       @include breakpoint-down(xxlarge) {
         width: 110px;
