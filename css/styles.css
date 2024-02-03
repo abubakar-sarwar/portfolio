@@ -1339,22 +1339,22 @@ footer .projects a:hover svg {
   }
 }
 
-.about {
+.about-page {
   padding-top: 180px;
   text-align: center;
   width: 80%;
   margin: auto;
 }
-.about-word {
+.about-page-word {
   font-size: 1rem;
   letter-spacing: 4px;
   color: #b9b9c3;
 }
-.about-title {
+.about-page-title {
   font-weight: 700;
   line-height: 50px;
 }
-.about-para {
+.about-page-para {
   font-weight: 500;
   color: #b9b9c3;
   padding: 0 50px;
