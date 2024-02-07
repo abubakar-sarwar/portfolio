@@ -20,7 +20,8 @@ body {
   scroll-behavior: smooth;
 }
 
-img, svg {
+img,
+svg {
   vertical-align: middle;
 }
 
@@ -29,7 +30,8 @@ img, svg {
   height: auto;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -42,7 +44,13 @@ a:hover {
   color: #0f141e;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   padding: 0;
   margin: 0;
   font-weight: 400;
@@ -92,7 +100,9 @@ input {
   transition: border-color 150ms ease-in-out, box-shadow 150ms ease-in-out;
 }
 
-input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {
+input:-webkit-autofill,
+select:-webkit-autofill,
+textarea:-webkit-autofill {
   transition-property: none;
   -webkit-transition-property: none;
   box-shadow: 0 0 0 1000px #ffffff inset;
@@ -1344,23 +1354,72 @@ footer .projects a:hover svg {
   }
 }
 
-.about-page {
-  padding-top: 180px;
-  text-align: center;
-  width: 80%;
+.about-page .ml-name {
+  margin-left: 90px;
+}
+.about-page .ml-desc {
+  margin-top: 30px;
+  margin-left: 110px;
+}
+.about-page .about-banner {
+  padding-top: 110px;
+  padding-bottom: 180px;
   margin: auto;
 }
-.about-page-word {
+.about-page .about-image {
+  width: 70%;
+  height: auto;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: grayscale(70%);
+  animation: fadeIn 0.8s linear;
+}
+.about-page .about-word {
   font-size: 1rem;
   letter-spacing: 4px;
   color: #b9b9c3;
 }
-.about-page-title {
+.about-page .about-title {
+  font-size: 60px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 70px;
+  animation: animation-txt 0.6s linear;
 }
-.about-page-para {
-  font-weight: 500;
-  color: #b9b9c3;
-  padding: 0 50px;
+.about-page .about-para {
+  font-size: 17px;
+  color: #474747;
+}
+.about-page .about-para:nth-child(1) {
+  animation: animation-txt 0.8s linear;
+}
+.about-page .about-para:nth-child(2) {
+  animation: animation-txt 1s linear;
+}
+.about-page .about-para:nth-child(4) {
+  animation: animation-txt 1.2s linear;
+}
+.about-page .skill-title {
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  color: #474747;
+  opacity: 0;
+  text-transform: uppercase;
+}
+.about-page .skills li {
+  font-size: 1.375rem;
+  font-weight: 700;
+  gap: 15px;
+  margin-bottom: 4px;
+  opacity: 0;
+}
+.about-page .skills li svg {
+  color: #28c76f;
+  flex-shrink: 0;
+}
+.about-page .about-skills.show .skill-title {
+  animation: animation-txt 0.2s forwards;
+}
+.about-page .about-skills.show .skills li {
+  animation: animation-txt var(--duration) forwards;
 }/*# sourceMappingURL=styles.css.map */

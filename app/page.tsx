@@ -1,11 +1,7 @@
-"use client"
+"use client";
 import { useEffect } from "react";
 import Link from "next/link";
-import {
-  addObserver,
-  createObserver,
-  removeObserver,
-} from "@/utils/utils";
+import { addObserver, createObserver, removeObserver } from "@/utils/utils";
 import Image from "next/image";
 import WhatsNew from "@/app/_components/homeComponents/whatsNew";
 import Skills from "@/app/_components/homeComponents/skills";
@@ -14,8 +10,8 @@ import Projects from "@/app/_components/homeComponents/projects";
 export default function Home() {
   useEffect(() => {
     if (typeof IntersectionObserver !== "undefined") {
-      var observer = createObserver();
-      addObserver(observer);
+      var observer = createObserver("animate-show");
+      addObserver(observer, "animate");
     }
 
     const handleScroll = () => {
