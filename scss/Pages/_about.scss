@@ -7,12 +7,32 @@
     margin-top: 30px;
     margin-left: 110px;
   }
+  @include breakpoint-down(large) {
+    .ml-name {
+      margin-left: 20px;
+    }
+    .ml-desc {
+      margin-top: 20px;
+      margin-left: 40px;
+    }
+  }
+
+  @include breakpoint-down(small) {
+    .ml-name,
+    .ml-desc {
+      margin-left: 0;
+    }
+  }
 
   .about {
     &-banner {
       padding-top: 110px;
       padding-bottom: 180px;
       margin: auto;
+
+      @include breakpoint-down(small) {
+        padding-bottom: 80px;
+      }
     }
 
     &-image {
@@ -22,6 +42,11 @@
       object-fit: cover;
       filter: grayscale(70%);
       animation: fadeIn 0.8s linear;
+
+      @include breakpoint-down(small) {
+        width: 100%;
+        margin-top: 15px;
+      }
     }
 
     &-word {
@@ -31,10 +56,20 @@
     }
 
     &-title {
-      font-size: 60px;
       font-weight: 700;
+      font-size: 60px;
       line-height: 70px;
       animation: animation-txt 0.6s linear;
+
+      @include breakpoint-down(large) {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      @include breakpoint-down(medium) {
+        font-size: 40px;
+        line-height: 50px;
+      }
     }
 
     &-para {
@@ -61,6 +96,10 @@
     text-transform: uppercase;
   }
   .skills {
+    @include breakpoint-down(medium) {
+      margin: 0 0px 15px 15px;
+    }
+
     li {
       font-size: 1.375rem;
       font-weight: 700;
@@ -90,11 +129,51 @@
     animation: animation-txt 0.8s forwards;
   }
   .experience {
+    @include breakpoint-up(large) {
+      .item-center {
+        display: flex;
+        justify-content: center;
+      }
+      .item-right {
+        display: flex;
+        justify-content: end;
+      }
+    }
+
+    @include breakpoint-down(large) {
+      .col-33 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .item-center,
+      .item-right {
+        margin-top: 15px;
+      }
+    }
+
+    @include breakpoint-down(small) {
+      .item-center,
+      .item-right {
+        margin-top: 0;
+      }
+    }
+
     &-des {
       font-weight: 700;
+
+      @include breakpoint-down(small) {
+        font-size: 1.2rem;
+      }
     }
     &-para {
       color: $txt-light;
+
+      @include breakpoint-down(small) {
+        font-size: 1.05rem;
+        a {
+          margin: 0;
+        }
+      }
 
       a:hover {
         strong {
@@ -103,6 +182,10 @@
         svg {
           transform: rotate(-45deg);
         }
+      }
+
+      a {
+        display: inline-block;
       }
 
       strong {

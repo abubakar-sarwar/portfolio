@@ -26,10 +26,10 @@ const Experience = () => {
           <div className="col-33">
             <h3 className="experience-des">MERN Stack Developer</h3>
           </div>
-          <div className="col-33 flx flx-jc">
+          <div className="col-33 item-center">
             <p className="experience-para">Noble Bridge Technologies</p>
           </div>
-          <div className="col-33 flx flx-je">
+          <div className="col-33 item-right">
             <span className="experience-para">November 2023 — Present</span>
           </div>
           <div className="col-1">
@@ -45,14 +45,14 @@ const Experience = () => {
             </p>
           </div>
         </div>
-        <div className="row animate">
+        <div className="row animate mt-1">
           <div className="col-33">
             <h3 className="experience-des">Freelaner</h3>
           </div>
-          <div className="col-33 flx flx-jc">
+          <div className="col-33 item-center">
             <p className="experience-para">Fiverr</p>
           </div>
-          <div className="col-33 flx flx-je">
+          <div className="col-33 item-right">
             <span className="experience-para">August 2021 — Present</span>
           </div>
           <div className="col-1">

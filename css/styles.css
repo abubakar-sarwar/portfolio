@@ -470,7 +470,7 @@ header {
   display: block;
   padding: 0 10px;
   font-size: 2.8125rem;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
   font-weight: 800;
   text-transform: uppercase;
   opacity: 0;
@@ -1365,10 +1365,30 @@ footer .projects a:hover svg {
   margin-top: 30px;
   margin-left: 110px;
 }
+@media (max-width: 992px) {
+  .about-page .ml-name {
+    margin-left: 20px;
+  }
+  .about-page .ml-desc {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 579px) {
+  .about-page .ml-name,
+  .about-page .ml-desc {
+    margin-left: 0;
+  }
+}
 .about-page .about-banner {
   padding-top: 110px;
   padding-bottom: 180px;
   margin: auto;
+}
+@media (max-width: 579px) {
+  .about-page .about-banner {
+    padding-bottom: 80px;
+  }
 }
 .about-page .about-image {
   width: 70%;
@@ -1379,16 +1399,34 @@ footer .projects a:hover svg {
   filter: grayscale(70%);
   animation: fadeIn 0.8s linear;
 }
+@media (max-width: 579px) {
+  .about-page .about-image {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
 .about-page .about-word {
   font-size: 1rem;
   letter-spacing: 4px;
   color: #b9b9c3;
 }
 .about-page .about-title {
-  font-size: 60px;
   font-weight: 700;
+  font-size: 60px;
   line-height: 70px;
   animation: animation-txt 0.6s linear;
+}
+@media (max-width: 992px) {
+  .about-page .about-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .about-page .about-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 .about-page .about-para {
   font-size: 17px;
@@ -1409,6 +1447,11 @@ footer .projects a:hover svg {
   color: #474747;
   opacity: 0;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .about-page .skills {
+    margin: 0 0px 15px 15px;
+  }
 }
 .about-page .skills li {
   font-size: 1.375rem;
@@ -1433,17 +1476,59 @@ footer .projects a:hover svg {
 .about-page .experience .row.animate-show {
   animation: animation-txt 0.8s forwards;
 }
+@media (min-width: 993px) {
+  .about-page .experience .item-center {
+    display: flex;
+    justify-content: center;
+  }
+  .about-page .experience .item-right {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (max-width: 992px) {
+  .about-page .experience .col-33 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-page .experience .item-center,
+  .about-page .experience .item-right {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 579px) {
+  .about-page .experience .item-center,
+  .about-page .experience .item-right {
+    margin-top: 0;
+  }
+}
 .about-page .experience-des {
   font-weight: 700;
 }
+@media (max-width: 579px) {
+  .about-page .experience-des {
+    font-size: 1.2rem;
+  }
+}
 .about-page .experience-para {
   color: #474747;
+}
+@media (max-width: 579px) {
+  .about-page .experience-para {
+    font-size: 1.05rem;
+  }
+  .about-page .experience-para a {
+    margin: 0;
+  }
 }
 .about-page .experience-para a:hover strong {
   border-bottom-color: #0f141e;
 }
 .about-page .experience-para a:hover svg {
   transform: rotate(-45deg);
+}
+.about-page .experience-para a {
+  display: inline-block;
 }
 .about-page .experience-para strong {
   font-weight: 600;
