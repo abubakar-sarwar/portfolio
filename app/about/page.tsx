@@ -1,5 +1,6 @@
 import Image from "next/image";
-import SkillsAbout from "./skillsAbout";
+import SkillsAbout from "@/app/_components/aboutComponents/skillsAbout";
+import Experience from "@/app/_components/aboutComponents/experience";
 
 const AboutPage = () => {
   return (
@@ -47,6 +48,9 @@ const AboutPage = () => {
       </section>
       <section>
         <SkillsAbout />
+      </section>
+      <section>
+        <Experience />
       </section>
     </div>
   );

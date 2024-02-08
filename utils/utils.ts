@@ -4,14 +4,14 @@ export const initialSkin = (): string => {
   return skin ? skin : "dark";
 };
 
-export const createObserver = (classShow: string) => {
+export const createObserver = () => {
   return new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add(classShow);
+          entry.target.classList.add("animate-show");
         } else {
-          entry.target.classList.remove(classShow);
+          entry.target.classList.remove("animate-show");
         }
       });
     },
@@ -21,11 +21,8 @@ export const createObserver = (classShow: string) => {
   );
 };
 
-export const addObserver = (
-  observer: IntersectionObserver,
-  className: string
-) => {
-  const elements = document.querySelectorAll(`.${className}`);
+export const addObserver = (observer: IntersectionObserver) => {
+  const elements = document.querySelectorAll(`.animate`);
   elements.forEach((el) => observer.observe(el as Element));
 };
 

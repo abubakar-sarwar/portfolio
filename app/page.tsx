@@ -10,8 +10,8 @@ import Projects from "@/app/_components/homeComponents/projects";
 export default function Home() {
   useEffect(() => {
     if (typeof IntersectionObserver !== "undefined") {
-      var observer = createObserver("animate-show");
-      addObserver(observer, "animate");
+      var observer = createObserver();
+      addObserver(observer);
     }
 
     const handleScroll = () => {

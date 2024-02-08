@@ -1,9 +1,8 @@
-"use client"
+"use client";
 
-import { useEffect } from "react"
+import { useEffect } from "react";
 
 const CursorCircle = () => {
-
   useEffect(() => {
     const handleMouse = (e: MouseEvent) => {
       const circleCursor = document.querySelector(
@@ -15,7 +14,9 @@ const CursorCircle = () => {
 
       const target = e.target as HTMLElement;
       const isLink =
-        target.tagName === "A" || target.classList.contains("link");
+        target.tagName === "A" ||
+        target.classList.contains("link") ||
+        target.closest("a") !== null;
       const isPopped = target.classList.contains("lr-crc");
 
       if (isLink) {
@@ -35,11 +36,9 @@ const CursorCircle = () => {
     return () => {
       document.removeEventListener("mousemove", handleMouse);
     };
-  }, [])
-  
-  return (
-    <div className="circle-cursor"></div>
-  )
-}
+  }, []);
 
-export default CursorCircle
+  return <div className="circle-cursor"></div>;
+};
+
+export default CursorCircle;

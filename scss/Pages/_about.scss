@@ -75,12 +75,46 @@
     }
   }
 
-  .about-skills.show {
+  .about-skills.animate-show {
     .skill-title {
       animation: animation-txt 0.2s forwards;
     }
     .skills li {
       animation: animation-txt var(--duration) forwards;
+    }
+  }
+  .sec-title {
+    margin-bottom: 30px;
+  }
+  .experience .row.animate-show {
+    animation: animation-txt 0.8s forwards;
+  }
+  .experience {
+    &-des {
+      font-weight: 700;
+    }
+    &-para {
+      color: $txt-light;
+
+      a:hover {
+        strong {
+          border-bottom-color: #0f141e;
+        }
+        svg {
+          transform: rotate(-45deg);
+        }
+      }
+
+      strong {
+        font-weight: 600;
+        transition: border 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        border-bottom: 2px solid transparent;
+      }
+
+      svg {
+        margin-left: 6px;
+        transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      }
     }
   }
 }

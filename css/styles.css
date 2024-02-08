@@ -291,6 +291,10 @@ button:disabled,
     transform: none;
   }
 }
+.m-1 {
+  margin: 15px 0;
+}
+
 .m-2 {
   margin: 30px 0;
 }
@@ -1417,9 +1421,36 @@ footer .projects a:hover svg {
   color: #28c76f;
   flex-shrink: 0;
 }
-.about-page .about-skills.show .skill-title {
+.about-page .about-skills.animate-show .skill-title {
   animation: animation-txt 0.2s forwards;
 }
-.about-page .about-skills.show .skills li {
+.about-page .about-skills.animate-show .skills li {
   animation: animation-txt var(--duration) forwards;
+}
+.about-page .sec-title {
+  margin-bottom: 30px;
+}
+.about-page .experience .row.animate-show {
+  animation: animation-txt 0.8s forwards;
+}
+.about-page .experience-des {
+  font-weight: 700;
+}
+.about-page .experience-para {
+  color: #474747;
+}
+.about-page .experience-para a:hover strong {
+  border-bottom-color: #0f141e;
+}
+.about-page .experience-para a:hover svg {
+  transform: rotate(-45deg);
+}
+.about-page .experience-para strong {
+  font-weight: 600;
+  transition: border 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-bottom: 2px solid transparent;
+}
+.about-page .experience-para svg {
+  margin-left: 6px;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=styles.css.map */

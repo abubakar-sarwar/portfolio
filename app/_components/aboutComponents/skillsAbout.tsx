@@ -7,8 +7,8 @@ import { FiCheck } from "react-icons/fi";
 const SkillsAbout = () => {
   useEffect(() => {
     if (typeof IntersectionObserver !== "undefined") {
-      var observer = createObserver("show");
-      addObserver(observer, "hide");
+      var observer = createObserver();
+      addObserver(observer);
     }
 
     return () => {
@@ -18,7 +18,7 @@ const SkillsAbout = () => {
 
   return (
     <div className="container">
-      <div className="about-skills hide">
+      <div className="about-skills animate">
         <div className="row">
           <div className="col-33">
             <h2 className="skill-title mb-1">Frontend Technologies</h2>
