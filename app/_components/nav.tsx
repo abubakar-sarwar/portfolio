@@ -13,6 +13,14 @@ const Nav = () => {
     setMenuMobile(false);
   }, [pathname]);
 
+  const scrollToElement = (className: string) => {
+    const element = document.getElementById(className);
+    if (element) {
+      setMenuMobile(false);
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="flx flx-sb flx-c">
       <div className="logo">
@@ -57,7 +65,9 @@ const Nav = () => {
                     height={500}
                   />
                 </div>
-                <Link href="/">expertise</Link>
+                <Link onClick={() => scrollToElement("Experties")} href="/">
+                  expertise
+                </Link>
               </li>
               <li>
                 <div className="link-bg">
@@ -81,10 +91,14 @@ const Nav = () => {
                     height={500}
                   />
                 </div>
-                <Link href="/">experience</Link>
+                <Link onClick={() => scrollToElement("Projects")} href="/">
+                  Projects
+                </Link>
               </li>
               <li>
-                <Link href="/">contact</Link>
+                <Link onClick={() => scrollToElement("Contact")} href="/">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>

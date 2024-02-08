@@ -97,11 +97,11 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section>
+      <section id="Contact">
         <WhatsNew />
       </section>
 
-      <section>
+      <section id="Experties">
         <Skills />
       </section>
     </>
