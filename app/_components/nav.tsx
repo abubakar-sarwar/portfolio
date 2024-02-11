@@ -15,7 +15,7 @@ const Nav = () => {
 
   const scrollToElement = (className: string) => {
     const element = document.getElementById(className);
-    if (element) {
+    if (element && element.offsetParent !== null) {
       setMenuMobile(false);
       element.scrollIntoView({ behavior: "smooth" });
     }
@@ -65,7 +65,10 @@ const Nav = () => {
                     height={500}
                   />
                 </div>
-                <Link onClick={() => scrollToElement("Experties")} href="/">
+                <Link
+                  onClick={() => scrollToElement("Experties")}
+                  href={pathname === "/" ? "#Experties" : "/"}
+                >
                   expertise
                 </Link>
               </li>
@@ -91,12 +94,18 @@ const Nav = () => {
                     height={500}
                   />
                 </div>
-                <Link onClick={() => scrollToElement("Projects")} href="/">
+                <Link
+                  onClick={() => scrollToElement("Projects")}
+                  href={pathname === "/" ? "#Projects" : "/"}
+                >
                   Projects
                 </Link>
               </li>
               <li>
-                <Link onClick={() => scrollToElement("Contact")} href="/">
+                <Link
+                  onClick={() => scrollToElement("Contact")}
+                  href={pathname === "/" ? "#Contact" : "/"}
+                >
                   Contact
                 </Link>
               </li>
