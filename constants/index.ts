@@ -17,6 +17,15 @@ export const projects = [
     gitLink: "",
     liveLink: "https://gldreamhome.com/",
   },
+  {
+    title: "GuideLine",
+    description:
+      'At NBT, I developed "GUIDELINE," a web application for travel advice, where I demonstrated my expertise in creating user-centered digital solutions.',
+    technologies: ["Next", "Node", "Express", "MongoDB"],
+    image: "/assets/project_04.jpg",
+    gitLink: "",
+    liveLink: "https://www.glgroupuae.com/",
+  },
 ];
 
 export const FrontendSkills = [
