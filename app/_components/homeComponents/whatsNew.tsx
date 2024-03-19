@@ -5,14 +5,13 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
 
 const WhatsNew = () => {
-
   useEffect(() => {
-    addTilt()
-  
+    addTilt();
+
     return () => {
       removeTilt();
-    }
-  }, [])
+    };
+  }, []);
 
   return (
     <div className="container">
@@ -28,7 +27,11 @@ const WhatsNew = () => {
                   <p>
                     <strong>Social</strong>&nbsp;latest on instagram.
                   </p>
-                  <Link href="https://www.instagram.com/web_dev_pk/" target="_blank" className="mt-1 lr-crc">
+                  <Link
+                    href="https://www.instagram.com/web_dev_pk/"
+                    target="_blank"
+                    className="mt-1 lr-crc"
+                  >
                     Discover My Insta&nbsp;
                     <BsArrowRight />
                   </Link>
@@ -49,8 +52,8 @@ const WhatsNew = () => {
                   <p>
                     <strong>Get In Touch</strong>&nbsp;on professional
                     platforms. Feel free to browse my other profiles for a
-                    broader view of my interests and contributions across
-                    the web.
+                    broader view of my interests and contributions across the
+                    web.
                   </p>
                   <ul className="ic-link flx flx-c mt-1">
                     <li>
@@ -74,7 +77,7 @@ const WhatsNew = () => {
                   </ul>
                 </div>
                 <img
-                  src="/assets/card-git.png"
+                  src="/assets/git_linkedin.png"
                   alt="instagram"
                   className="card-img"
                 />
@@ -85,7 +88,7 @@ const WhatsNew = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default WhatsNew
+export default WhatsNew;
