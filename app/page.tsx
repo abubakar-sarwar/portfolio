@@ -19,7 +19,7 @@ export default function Home() {
       const homeBg = document.querySelector(".home-bg") as HTMLDivElement; // Type assertion to HTMLDivElement
 
       if (homeBg) {
-        const opacity = 1 - scrollPosition / 600; // Adjust the division factor as needed
+        const opacity = 1 - scrollPosition / 600; // Adjust the division factor as needed.
 
         if (opacity > 0) {
           homeBg.style.opacity = Math.max(0, opacity).toString();
