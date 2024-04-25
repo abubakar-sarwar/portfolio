@@ -6,8 +6,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Portfolio | Abubakar - Mern Stack Developer | Laravel Developer",
-  description: "I build web-based solutions that prioritize functionality and user experience. I enjoy turning ideas into reality by creating practical and visually appealing web applications.",
-  authors: [{name: "Abubakar"}],
+  description:
+    "I build web-based solutions that prioritize functionality and user experience. I enjoy turning ideas into reality by creating practical and visually appealing web applications.",
+  authors: [{ name: "Abubakar" }],
   icons: ["/assets/logo.png"],
 };
 
