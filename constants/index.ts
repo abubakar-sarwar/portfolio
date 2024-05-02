@@ -21,7 +21,7 @@ export const projects = [
     title: "Dream Home",
     description:
       "At NBT, I crafted 'Dream Home,' a furniture e-commerce site in collaboration with Dearm Home Project, showcasing my skills in creating compelling online platforms.",
-    technologies: ["Next", "Node", "Express", "MongoDB"],
+    technologies: ["Next", "Node", "Express", "MongoDB", "Redux"],
     image: "/assets/project_02.png",
     gitLink: "",
     liveLink: "https://gldreamhome.com/",
@@ -30,7 +30,7 @@ export const projects = [
     title: "GuideLine",
     description:
       'At NBT, I developed "GUIDELINE," a web application for travel advice, where I demonstrated my expertise in creating user-centered digital solutions.',
-    technologies: ["Next", "Node", "Express", "MongoDB"],
+    technologies: ["Next", "Node", "Express", "MongoDB", "Redux"],
     image: "/assets/project_04.jpg",
     gitLink: "",
     liveLink: "https://www.glgroupuae.com/",
@@ -39,7 +39,7 @@ export const projects = [
     title: "DND TODO",
     description:
       'I developed "DND TODO," a drag-and-drop to-do list application that supports multiple projects, theme customization, and intuitive task management, showcasing my ability to create versatile and user-friendly digital tools.',
-    technologies: ["Next", "Tailwindcss"],
+    technologies: ["Next", "Tailwindcss", "Redux"],
     image: "/assets/project_06.png",
     gitLink: "",
     liveLink: "https://dnd-todo-custom.vercel.app/",
