@@ -1,3 +1,4 @@
+// All Projects
 export const projects = [
   {
     title: "Thrillquest",
