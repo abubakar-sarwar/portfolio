@@ -1275,9 +1275,7 @@ footer .projects a:hover svg {
   padding: 40px 30px;
   direction: rtl;
   transform-style: preserve-3d;
-  transform: perspective(1600px) rotateY(-20deg);
-  -webkit-mask-image: linear-gradient(to left, black 60%, rgba(0, 0, 0, 0) 100%);
-          mask-image: linear-gradient(to left, black 60%, rgba(0, 0, 0, 0) 100%);
+  transform: perspective(1600px) rotateY(-15deg);
 }
 @media (max-width: 579px) {
   .skills-case {
@@ -1486,7 +1484,7 @@ footer .projects a:hover svg {
   }
   .about-page .experience .item-right {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
 @media (max-width: 992px) {

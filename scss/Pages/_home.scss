@@ -10,6 +10,7 @@
     height: max-content;
     min-height: max-content;
   }
+
   @include breakpoint-down(small) {
     padding-top: 50px;
   }
@@ -58,6 +59,7 @@
         font-size: 0.6rem;
       }
     }
+
     h1.large {
       font-size: 4.1rem;
       font-weight: 800;
@@ -81,6 +83,7 @@
         line-height: 2.2rem;
       }
     }
+
     h3 {
       font-size: 1.375rem;
       font-weight: 500;
@@ -106,6 +109,7 @@
         line-height: 1rem;
       }
     }
+
     .links {
       margin-top: 20px;
       animation: animation-txt 1.3s linear;
@@ -117,6 +121,7 @@
         @include breakpoint-down(medium) {
           font-size: 1rem;
         }
+
         @include breakpoint-down(small) {
           font-size: 0.8rem;
         }
@@ -178,6 +183,7 @@
         -webkit-transform: translateY(0);
         transform: translateY(0);
       }
+
       50% {
         opacity: 1;
         -webkit-transform: translateY(7px);
@@ -222,11 +228,13 @@
 }
 
 @keyframes animation-txt {
+
   0%,
   75% {
     opacity: 0;
     transform: translate3d(0, 20px, 0);
   }
+
   100% {
     opacity: 1;
     transform: translate3d(0, 0, 0);
@@ -234,20 +242,24 @@
 }
 
 @keyframes fadeIn {
+
   0%,
   30% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 @keyframes fadeIn-home {
+
   0%,
   40% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -392,11 +404,14 @@
     flex: 0 0 40%;
     max-width: 40%;
   }
+
   .col-7 {
     flex: 0 0 60%;
     max-width: 60%;
   }
+
   @include breakpoint-down(large) {
+
     .col-3,
     .col-7 {
       flex: 0 0 100%;
@@ -404,24 +419,29 @@
       padding: 0 15px;
     }
   }
+
   .skills-wrap {
     overflow: hidden;
   }
+
   &-details {
     position: relative;
+
     .sec-title {
       margin-bottom: 30px;
     }
-    > * {
+
+    >* {
       opacity: 0;
       transform: translate3d(0, 20px, 0);
     }
 
-    &.animate-show > * {
+    &.animate-show>* {
       opacity: 1;
       transform: translate3d(0, 0, 0);
       transition: transform 800ms, opacity 800ms;
     }
+
     h2 {
       font-weight: 500;
 
@@ -429,19 +449,20 @@
         font-size: 23px;
       }
     }
+
     p {
       @include breakpoint-down(xxlarge) {
         font-size: 16px;
       }
     }
   }
+
   &-case {
     position: relative;
     padding: 40px 30px;
     direction: rtl;
     transform-style: preserve-3d;
-    transform: perspective(1600px) rotateY(-20deg);
-    mask-image: linear-gradient(to left, black 60%, rgba(0, 0, 0, 0) 100%);
+    transform: perspective(1600px) rotateY(-15deg);
 
     @include breakpoint-down(small) {
       display: grid;
@@ -464,6 +485,7 @@
     .c-mr {
       margin-right: 25px;
     }
+
     .c-mb {
       margin-bottom: 25px;
     }
@@ -472,6 +494,7 @@
       .c-mr {
         margin: 0;
       }
+
       .c-mb {
         margin-bottom: 10px;
       }
@@ -490,7 +513,7 @@
       background-color: white;
       box-shadow: 0 0 13px 0 rgba(47, 43, 61, 0.16);
       transition: all 0.3s;
-      
+
       &:hover {
         transform: scale(1.05);
         box-shadow: 0 0 12px 5px rgba(47, 43, 61, 0.16);

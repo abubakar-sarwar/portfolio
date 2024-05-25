@@ -65,7 +65,7 @@ export default function Home() {
                       I'm developing Creative & Interactive webapps.
                     </h1>
                     <h3 className="header-light mt-1">
-                      Over the past 3 years, as a developer, I build web-based
+                      Over the past 3+ years, as a developer, I build web-based
                       solutions that prioritize functionality and user
                       experience. I enjoy turning ideas into reality by creating
                       practical and visually appealing web applications.
@@ -78,7 +78,7 @@ export default function Home() {
                       </h4>
                       <span className="ml-1 mr-1">or</span>
                       <h4>
-                        <Link href="/" className="internal special">
+                        <Link href="/about" className="internal special">
                           Read About Me
                         </Link>
                       </h4>

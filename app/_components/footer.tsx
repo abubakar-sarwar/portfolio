@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="avail">
               <h1>Current Availability</h1>
               <p className="txt-muted">
-                I usually work on several projects but I’ll be happy to discuss
+                I’ll be happy to discuss
                 new opportunities. Let’s get in touch!
               </p>
             </div>

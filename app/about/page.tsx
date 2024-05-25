@@ -18,9 +18,12 @@ const AboutPage = () => {
                   <div className="ml-desc">
                     <p className="about-para">Hello, I'm Muhammad Abu Bakar.</p>
                     <p className="about-para">
-                      An eager, goal-oriented programmer with a passion for
-                      coding and a solid grounding in a variety of web
-                      development tools.
+                      Passionate MERN Stack Developer with 3+ years of
+                      experience in web development in the tech industry.
+                      Skilled at creating scalable and maintainable web apps
+                      while focusing on delivering excellent user experiences
+                      and optimizing application speed using technologies like
+                      Next.js, Node.js, Laravel, etc.
                     </p>
                     <br />
                     <p className="about-para">

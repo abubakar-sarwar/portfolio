@@ -12,16 +12,14 @@ const Skills = () => {
               </div>
               <h2 style={{ transitionDelay: ".15s" }}>Front-end Dev</h2>
               <p style={{ transitionDelay: ".25s" }}>
-                Passionate about UI/UX. Over 3 years of development
-                experience in HTML5, CSS3, SCSS, Tailwind CSS, JS, ReactJS
-                and NextJS frameworks.
+                Passionate about UI/UX. Over 3+ years of development
+                experience in Next.js, React.js, React-Router-Dom, TailwindCSS, SCSS, CSS, Redux, Redux ToolKit, GSAP, JavaScript, TypeScript.
               </p>
               <h2 style={{ transitionDelay: ".35s" }} className="mt-1">
                 Back-end Dev
               </h2>
               <p style={{ transitionDelay: ".45s" }}>
-                Over 1 years of development experience in REST API Using
-                Laravel with MYSQL and Node JS with MonogDB.
+                Over 2+ years of development experience in Laravel with MySQL and Node.js with MonogDB.
               </p>
               <p style={{ transitionDelay: ".55s" }} className="mt-2">
                 All My Websites/Webapps Are Lovingly Hand Coded, Responsive
@@ -172,6 +170,34 @@ const Skills = () => {
                       height={40}
                     />
                   </div>
+                </div>
+                <div className="case-group c-mr">
+                  <div className="case c-mb">
+                    <Image
+                      src="/assets/git.png"
+                      alt="git"
+                      width={100}
+                      height={40}
+                    />
+                  </div>
+                  <div className="case c-mb">
+                    <Image
+                      src="/assets/redux.png"
+                      alt="redux"
+                      width={130}
+                      height={40}
+                    />
+                  </div>
+                  <div className="case c-mb">
+                    <Image
+                      src="/assets/gsap.png"
+                      alt="gsap"
+                      width={130}
+                      height={40}
+                    />
+                  </div>
+                  {/* <div className="case">
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -34,38 +34,64 @@ const Experience = () => {
           </div>
           <div className="col-1">
             <p className="experience-para m-1">
-              As a dedicated Frontend Developer at Noble Bridge Technologies, I work closely with teams in this dynamic
-              profession to convert design concepts into responsive and interactive online applications. I specialize in
-              Next.js, TailwindCSS and Redux for building responsive and interactive Frontend applications.
-              <br />
-              I have undertaken several notable projects during my tenure at Noble Bridge Technologies:
+              As a dedicated Frontend Developer at Noble Bridge Technologies, I
+              work closely with teams in this dynamic profession to convert
+              design concepts into responsive and interactive online
+              applications. I specialize in Next.js, TailwindCSS and Redux for
+              building responsive and interactive Frontend applications.
+              <br />I have undertaken several notable projects during my tenure
+              at Noble Bridge Technologies:
             </p>
             <p className="project_name">Just Imagine:</p>
             <ul className="project_do_list">
-              <li>Developed the front-end of a multi-role user application using modern web technologies.</li>
-              <li>Ensured full responsiveness, delivering a seamless experience across various devices and screen sizes.</li>
-              <li>Implemented dynamic user interfaces and role-based features to enhance user engagement and
-                accessibility.
+              <li>
+                Developed the front-end of a multi-role user application using
+                modern web technologies.
               </li>
-              <li>Utilized best practices for performance optimization and maintainability, ensuring a robust and
-                scalable codebase.
+              <li>
+                Ensured full responsiveness, delivering a seamless experience
+                across various devices and screen sizes.
+              </li>
+              <li>
+                Implemented dynamic user interfaces and role-based features to
+                enhance user engagement and accessibility.
+              </li>
+              <li>
+                Utilized best practices for performance optimization and
+                maintainability, ensuring a robust and scalable codebase.
               </li>
             </ul>
             <p className="project_name">Dream Home:</p>
             <ul className="project_do_list">
-              <li>Contributed to both the front-end and back-end development of an e-commerce furniture application.</li>
-              <li>Implemented discount functionalities and integrated and created part of a RESTful API using Node.js
-                and MongoDB for efficient data management.</li>
-              <li>Contributed to performance optimization and maintainability for a scalable and robust platform.
+              <li>
+                Contributed to both the front-end and back-end development of an
+                e-commerce furniture application.
+              </li>
+              <li>
+                Implemented discount functionalities and integrated and created
+                part of a RESTful API using Node.js and MongoDB for efficient
+                data management.
+              </li>
+              <li>
+                Contributed to performance optimization and maintainability for
+                a scalable and robust platform.
               </li>
             </ul>
             <p className="project_name">GuideLine:</p>
             <ul className="project_do_list">
-              <li>Collaboratively developed front-end components within a team while independently handling backend development and integration for a consultancy application.</li>
-              <li>Implemented back-end functionalities and integrated various services to ensure seamless
-                communication and data flow.</li>
-              <li>Leveraged both front-end and back-end expertise to deliver a cohesive and user-friendly consultancy
-                platform.</li>
+              <li>
+                Collaboratively developed front-end components within a team
+                while independently handling backend development and integration
+                for a consultancy application.
+              </li>
+              <li>
+                Implemented back-end functionalities and integrated various
+                services to ensure seamless communication and data flow.
+              </li>
+              <li>
+                Leveraged both front-end and back-end expertise to deliver a
+                cohesive and user-friendly consultancy platform.
+              </li>
             </ul>
           </div>
         </div>
@@ -81,23 +107,29 @@ const Experience = () => {
           </div>
           <div className="col-1">
             <p className="experience-para m-1">
-              One notable project involved developing a dynamic e-commerce
-              platform with custom real time cars number plates editing for a
-              client from United Kingdom. <br /> You can explore this project:
-              <Link
-                className="ml-1"
-                target="_blank"
-                href="https://boostremap.co.uk"
-              >
-                <strong>
-                  https://boostremap.co.uk
-                  <BsArrowRight />
-                </strong>
-              </Link>
-              <br /> This experience confirmed my capacity to produce customized
-              online solutions while working alone, and I'm excited to keep
-              applying my love of coding to new projects.
+              My career has been built on my ability to independently provide
+              high-caliber web apps that are customized to meet the objectives
+              of clients. In the freelance world, I've built a solid reputation
+              for dependability and excellence thanks to my focus on seamless,
+              user-friendly experiences.
             </p>
+            <p className="project_name">Plates For Cars:</p>
+            <ul className="project_do_list">
+              <li>
+                Independently developed front-end components using React.js
+                while managing backend development and integration with Laravel
+                for an e-commerce and online car plates editor platform.
+              </li>
+              <li>
+                Implemented robust back-end functionalities and integrated
+                various services to ensure seamless communication and data flow.
+              </li>
+              <li>
+                Leveraged both front-end and back-end expertise to deliver a
+                cohesive, user-friendly platform for purchasing car plates and
+                customizing designs online.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
