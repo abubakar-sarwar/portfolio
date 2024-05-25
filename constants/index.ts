@@ -18,6 +18,15 @@ export const projects = [
     liveLink: "https://boostremap.co.uk/",
   },
   {
+    title: "Just Imagine",
+    description:
+      "A platform where freelancers and recruiters connect! Transform your project ideas into reality with our innovative online service, bringing together top talent and ambitious projects in one seamless experience.",
+    technologies: ["Next", "Redux ToolKit", "Node js", "MongoDB"],
+    image: "/assets/just-Imagine.png",
+    gitLink: "",
+    liveLink: "https://www.careerjustimagine.com/",
+  },
+  {
     title: "Dream Home",
     description:
       "At NBT, I crafted 'Dream Home,' a furniture e-commerce site in collaboration with Dearm Home Project, showcasing my skills in creating compelling online platforms.",
@@ -49,23 +58,30 @@ export const projects = [
 export const FrontendSkills = [
   "Next JS",
   "React JS",
+  "TailwindCSS",
+  "Redux ( Redux ToolKit )",
+  "Ract-Router_dom",
+  "GSAP",
+  "JavaScript",
+  "TypeScript",
   "Html5",
-  "TailWind CSS",
   "CSS3 / SCSS",
 ];
 
 export const BackendSkills = [
-  "Node JS API’s",
-  "Laravel API’s",
+  "Node.js",
+  "Express.js",
+  "Mongoose",
   "MongoDB",
+  "Laravel",
   "MySQL",
+  "Sanctum",
 ];
 
 export const Tools = [
+  "Git",
   "Visual Studio Code",
   "Postman",
-  "Git",
-  "GitHub",
-  "Figma",
-  "PhotoShop",
+  "Postman Canary",
+  "Vercel",
 ];

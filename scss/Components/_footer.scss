@@ -1,6 +1,10 @@
 footer {
   padding-bottom: 30px;
 
+  .footer-mt {
+    margin-top: 80px;
+  }
+
   .col {
     flex: 0 0 25%;
     max-width: 25%;
@@ -11,16 +15,19 @@ footer {
       flex: 0 0 50%;
       max-width: 50%;
     }
+
     @include breakpoint-down(small) {
       flex: 0 0 100%;
       max-width: 100%;
       padding: 15px;
     }
   }
+
   .sec-title .title {
     color: $txt-primary;
     font-weight: 800;
   }
+
   h1 {
     font-size: 40px;
     font-weight: 700;
@@ -30,6 +37,7 @@ footer {
       font-size: 26px;
     }
   }
+
   p {
     font-size: 20px;
 
@@ -37,9 +45,11 @@ footer {
       font-size: 16px;
     }
   }
+
   svg {
     pointer-events: none;
   }
+
   .contact {
     a {
       display: inline-block;
@@ -53,6 +63,7 @@ footer {
       }
     }
   }
+
   .projects {
     a svg {
       transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);

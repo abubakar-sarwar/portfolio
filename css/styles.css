@@ -764,6 +764,9 @@ header {
 footer {
   padding-bottom: 30px;
 }
+footer .footer-mt {
+  margin-top: 80px;
+}
 footer .col {
   flex: 0 0 25%;
   max-width: 25%;
@@ -1538,4 +1541,12 @@ footer .projects a:hover svg {
 .about-page .experience-para svg {
   margin-left: 6px;
   transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about-page .project_name {
+  font-weight: 700;
+  margin: 10px 0;
+}
+.about-page .project_do_list {
+  list-style: disc;
+  padding-left: 35px;
 }/*# sourceMappingURL=styles.css.map */
