@@ -50,7 +50,7 @@ export const projects = [
       'I developed "DND TODO," a drag-and-drop to-do list application that supports multiple projects, theme customization, and intuitive task management, showcasing my ability to create versatile and user-friendly digital tools.',
     technologies: ["Next", "Tailwindcss", "Redux"],
     image: "/assets/project_06.png",
-    gitLink: "",
+    gitLink: "https://github.com/abubakar-sarwar/dnd-todo-custom",
     liveLink: "https://dnd-todo-custom.vercel.app/",
   },
 ];

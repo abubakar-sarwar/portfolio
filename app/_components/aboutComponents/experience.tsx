@@ -34,11 +34,13 @@ const Experience = () => {
           </div>
           <div className="col-1">
             <p className="experience-para m-1">
-              As a dedicated Frontend Developer at Noble Bridge Technologies, I
-              work closely with teams in this dynamic profession to convert
+              As a dedicated Full Stack Developer at Noble Bridge Technologies,
+              I work closely with teams in this dynamic profession to convert
               design concepts into responsive and interactive online
-              applications. I specialize in Next.js, TailwindCSS and Redux for
-              building responsive and interactive Frontend applications.
+              applications. Focusing on developing interactive and responsive
+              web applications. My area of expertise is using Express.js,
+              React.js, Next.js, Node.js, and MongoDB to create scalable,
+              dynamic solutions that place the user experience first.
               <br />I have undertaken several notable projects during my tenure
               at Noble Bridge Technologies:
             </p>
