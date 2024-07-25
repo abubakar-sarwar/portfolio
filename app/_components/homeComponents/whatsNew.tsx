@@ -43,6 +43,8 @@ const WhatsNew = () => {
                   height={100}
                   alt="instagram"
                   className="card-img"
+                  unoptimized
+                  loading="lazy"
                 />
               </div>
               <div className="card-tilt-skew"></div>
@@ -89,6 +91,8 @@ const WhatsNew = () => {
                   width={100}
                   height={100}
                   className="card-img"
+                  unoptimized
+                  loading="lazy"
                 />
               </div>
               <div className="card-tilt-skew"></div>
