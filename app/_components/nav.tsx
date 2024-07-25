@@ -62,9 +62,10 @@ const Nav = () => {
                   <Image
                     src="/assets/projects.avif"
                     alt="projects"
-                    unoptimized
                     width={500}
                     height={500}
+                    quality={50}
+                    sizes="(max-width: 1024px) 30vw, 50vw"
                   />
                 </div>
                 <Link
@@ -79,7 +80,8 @@ const Nav = () => {
                   <Image
                     src="/assets/about-me.avif"
                     alt="projects"
-                    unoptimized
+                    quality={50}
+                    sizes="(max-width: 1024px) 30vw, 50vw"
                     width={500}
                     height={500}
                   />
@@ -91,7 +93,8 @@ const Nav = () => {
                   <Image
                     src="/assets/experience.avif"
                     alt="projects"
-                    unoptimized
+                    quality={50}
+                    sizes="(max-width: 1024px) 30vw, 50vw"
                     width={500}
                     height={500}
                   />

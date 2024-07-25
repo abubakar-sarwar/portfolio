@@ -38,6 +38,7 @@ const Projects = () => {
                       style={{ width: "100%" }}
                       quality={100}
                       sizes="(max-width: 1024px) 100vw, 80vw"
+                      loading="lazy"
                     />
                     <div className="overlay"></div>
                   </div>

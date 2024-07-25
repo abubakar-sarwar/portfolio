@@ -42,7 +42,16 @@ export default function Home() {
     <>
       <section>
         <div className="home-top">
-          <img src="/assets/bg_home_2.svg" alt="brand" className="bg-img" />
+          <Image
+            src="/assets/bg_home_2.svg"
+            alt="brand"
+            width={100}
+            height={100}
+            className="bg-img"
+            loading="lazy"
+            quality={100}
+            sizes="(max-width: 1024px) 30vw, 50vw"
+          />
           <div className="home-bg"></div>
           <div className="container">
             <div className="flx flx-c flx-jc">
