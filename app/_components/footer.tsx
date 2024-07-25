@@ -21,6 +21,8 @@ const Footer = () => {
                   <Link
                     target="_blank"
                     href="https://github.com/abubakar-sarwar"
+                    aria-label="Github Profile"
+                    title="Github Profile"
                   >
                     <AiFillGithub />
                   </Link>
@@ -28,6 +30,8 @@ const Footer = () => {
                 <li>
                   <Link
                     target="_blank"
+                    aria-label="Linkedin Profile"
+                    title="Linkedin Profile"
                     href="https://www.linkedin.com/in/muhammad-abubakar-b238a5298"
                   >
                     <AiFillLinkedin />
@@ -58,8 +62,7 @@ const Footer = () => {
             <div className="avail">
               <h1>Current Availability</h1>
               <p className="txt-muted">
-                I’ll be happy to discuss
-                new opportunities. Let’s get in touch!
+                I’ll be happy to discuss new opportunities. Let’s get in touch!
               </p>
             </div>
           </div>

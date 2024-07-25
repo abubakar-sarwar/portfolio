@@ -60,7 +60,7 @@ const Nav = () => {
               <li>
                 <div className="link-bg">
                   <Image
-                    src="/assets/projects.jpg"
+                    src="/assets/projects.avif"
                     alt="projects"
                     unoptimized
                     width={500}
@@ -77,7 +77,7 @@ const Nav = () => {
               <li>
                 <div className="link-bg">
                   <Image
-                    src="/assets/about-me.jpg"
+                    src="/assets/about-me.avif"
                     alt="projects"
                     unoptimized
                     width={500}
@@ -89,7 +89,7 @@ const Nav = () => {
               <li>
                 <div className="link-bg">
                   <Image
-                    src="/assets/experience.jpg"
+                    src="/assets/experience.avif"
                     alt="projects"
                     unoptimized
                     width={500}

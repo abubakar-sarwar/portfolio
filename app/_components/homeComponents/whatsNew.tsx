@@ -61,6 +61,8 @@ const WhatsNew = () => {
                         href="https://github.com/abubakar-sarwar"
                         target="_blank"
                         className="ic-git lr-crc"
+                        aria-label="Github Profile"
+                        title="Github Profile"
                       >
                         <AiFillGithub />
                       </Link>
@@ -70,6 +72,8 @@ const WhatsNew = () => {
                         href="https://www.linkedin.com/in/muhammad-abubakar-b238a5298"
                         target="_blank"
                         className="ic-live lr-crc"
+                        aria-label="Linkedin Profile"
+                        title="Linkedin Profile"
                       >
                         <AiFillLinkedin />
                       </Link>
