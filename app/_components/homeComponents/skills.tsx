@@ -12,18 +12,20 @@ const Skills = () => {
               </div>
               <h2 style={{ transitionDelay: ".15s" }}>Front-end Dev</h2>
               <p style={{ transitionDelay: ".25s" }}>
-                Passionate about UI/UX. Over 3+ years of development
-                experience in Next.js, React.js, React-Router-Dom, TailwindCSS, SCSS, CSS, Redux, Redux ToolKit, GSAP, JavaScript, TypeScript.
+                Passionate about UI/UX. Over 3+ years of development experience
+                in Next.js, React.js, React-Router-Dom, TailwindCSS, SCSS, CSS,
+                Redux, Redux ToolKit, GSAP, JavaScript, TypeScript.
               </p>
               <h2 style={{ transitionDelay: ".35s" }} className="mt-1">
                 Back-end Dev
               </h2>
               <p style={{ transitionDelay: ".45s" }}>
-                Over 2+ years of development experience in Laravel with MySQL and Node.js with MonogDB.
+                Over 2+ years of development experience in Laravel with MySQL
+                and Node.js with MonogDB.
               </p>
               <p style={{ transitionDelay: ".55s" }} className="mt-2">
-                All My Websites/Webapps Are Lovingly Hand Coded, Responsive
-                and Cross-browser compatible.
+                All My Websites/Webapps Are Lovingly Hand Coded, Responsive and
+                Cross-browser compatible.
               </p>
             </div>
           </div>
@@ -33,7 +35,7 @@ const Skills = () => {
                 <div className="case-group">
                   <div className="case c-mb">
                     <Image
-                      src="/assets/react.png"
+                      src="/skills/react.png"
                       alt="React"
                       width={65}
                       height={65}
@@ -42,7 +44,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/next.png"
+                      src="/skills/next.avif"
                       alt="next"
                       width={130}
                       height={40}
@@ -50,7 +52,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/node.svg"
+                      src="/skills/node.svg"
                       alt="node"
                       width={57}
                       height={57}
@@ -58,7 +60,7 @@ const Skills = () => {
                   </div>
                   <div className="case">
                     <Image
-                      src="/assets/typescript.png"
+                      src="/skills/typescript.avif"
                       alt="typescript"
                       width={130}
                       height={40}
@@ -68,7 +70,7 @@ const Skills = () => {
                 <div className="case-group c-mr">
                   <div className="case c-mb">
                     <Image
-                      src="/assets/laravel.png"
+                      src="/skills/laravel.avif"
                       alt="laravel"
                       width={130}
                       height={40}
@@ -76,7 +78,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/mysql.png"
+                      src="/skills/mysql.avif"
                       alt="mysql"
                       width={130}
                       height={40}
@@ -84,7 +86,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/mongoDB.png"
+                      src="/skills/mongoDB.avif"
                       alt="mongoDB"
                       width={130}
                       height={40}
@@ -92,7 +94,7 @@ const Skills = () => {
                   </div>
                   <div className="case">
                     <Image
-                      src="/assets/tailwind.png"
+                      src="/skills/tailwind.avif"
                       alt="tailwind"
                       width={57}
                       height={57}
@@ -102,7 +104,7 @@ const Skills = () => {
                 <div className="case-group c-mr">
                   <div className="case c-mb">
                     <Image
-                      src="/assets/html.png"
+                      src="/skills/html.avif"
                       alt="html"
                       width={75}
                       height={70}
@@ -111,7 +113,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/css.png"
+                      src="/skills/css.avif"
                       alt="css"
                       width={63}
                       height={60}
@@ -120,7 +122,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/javascript.png"
+                      src="/skills/javascript.avif"
                       alt="javascript"
                       width={57}
                       height={57}
@@ -129,7 +131,7 @@ const Skills = () => {
                   </div>
                   <div className="case">
                     <Image
-                      src="/assets/sass.png"
+                      src="/skills/sass.avif"
                       alt="SASS"
                       width={75}
                       height={65}
@@ -139,7 +141,7 @@ const Skills = () => {
                 <div className="case-group c-mr">
                   <div className="case c-mb">
                     <Image
-                      src="/assets/jquery.png"
+                      src="/skills/jquery.avif"
                       alt="jquery"
                       width={130}
                       height={40}
@@ -148,7 +150,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/npm.png"
+                      src="/skills/npm.avif"
                       alt="npm"
                       width={130}
                       height={40}
@@ -156,7 +158,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/postman.png"
+                      src="/skills/postman.avif"
                       alt="postman"
                       width={130}
                       height={40}
@@ -164,7 +166,7 @@ const Skills = () => {
                   </div>
                   <div className="case">
                     <Image
-                      src="/assets/vs_code.png"
+                      src="/skills/vs_code.avif"
                       alt="vs_code"
                       width={130}
                       height={40}
@@ -174,7 +176,7 @@ const Skills = () => {
                 <div className="case-group c-mr">
                   <div className="case c-mb">
                     <Image
-                      src="/assets/git.png"
+                      src="/skills/git.avif"
                       alt="git"
                       width={100}
                       height={40}
@@ -182,7 +184,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/redux.png"
+                      src="/skills/redux.avif"
                       alt="redux"
                       width={130}
                       height={40}
@@ -190,7 +192,7 @@ const Skills = () => {
                   </div>
                   <div className="case c-mb">
                     <Image
-                      src="/assets/gsap.png"
+                      src="/skills/gsap.avif"
                       alt="gsap"
                       width={130}
                       height={40}
@@ -205,7 +207,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

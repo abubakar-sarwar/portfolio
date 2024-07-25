@@ -37,7 +37,7 @@ const WhatsNew = () => {
                   </Link>
                 </div>
                 <img
-                  src="/assets/Insta-card.webp"
+                  src="/assets/Insta-card.avif"
                   alt="instagram"
                   className="card-img"
                 />
@@ -81,7 +81,7 @@ const WhatsNew = () => {
                   </ul>
                 </div>
                 <img
-                  src="/assets/git_linkedin.webp"
+                  src="/assets/git_linkedin.avif"
                   alt="instagram"
                   className="card-img"
                 />

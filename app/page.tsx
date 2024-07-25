@@ -47,7 +47,7 @@ export default function Home() {
           <div className="container">
             <div className="flx flx-c flx-jc">
               <Image
-                src="/assets/bg_home_04.webp"
+                src="/assets/bg_home_04.avif"
                 alt="abubakar"
                 className="banner_image"
                 width={300}

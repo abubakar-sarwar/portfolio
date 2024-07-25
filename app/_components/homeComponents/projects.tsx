@@ -1,5 +1,6 @@
 import { projects } from "@/constants";
 import { ProjectType } from "@/types";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -28,11 +29,15 @@ const Projects = () => {
                       isRight ? "" : "flx-je"
                     }`}
                   >
-                    <img
+                    <Image
                       src={item?.image}
                       alt="project"
+                      width={100}
+                      height={100}
                       className="img-fluid"
                       style={{ width: "100%" }}
+                      quality={100}
+                      sizes="(max-width: 1024px) 100vw, 80vw"
                     />
                     <div className="overlay"></div>
                   </div>

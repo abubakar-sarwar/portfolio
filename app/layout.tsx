@@ -4,6 +4,14 @@ import Nav from "@/app/_components/nav";
 import "@/css/styles.css";
 import type { Metadata } from "next";
 
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Portfolio | Abubakar - Mern Stack Developer | Laravel Developer",
   description:
@@ -41,14 +49,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body>
+      <body className={`${poppins.className}`}>
         <CursorCircle />
         <Nav />
         <main>{children}</main>
