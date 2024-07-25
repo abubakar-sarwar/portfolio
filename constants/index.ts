@@ -56,11 +56,11 @@ export const projects = [
 ];
 
 export const FrontendSkills = [
-  "Next JS",
-  "React JS",
+  "Next.js",
+  "React.js",
   "TailwindCSS",
   "Redux ( Redux ToolKit )",
-  "Ract-Router_dom",
+  "Ract-Router-dom",
   "GSAP",
   "JavaScript",
   "TypeScript",

@@ -9,7 +9,29 @@ export const metadata: Metadata = {
   description:
     "I build web-based solutions that prioritize functionality and user experience. I enjoy turning ideas into reality by creating practical and visually appealing web applications.",
   authors: [{ name: "Abubakar" }],
+  creator: "Abubakar",
+  publisher: "Abubakar",
+  applicationName: "Portfolio | Abubakar",
+  keywords: [
+    "Next.js",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
+    "TypeScript",
+    "Tailwindcss",
+    "Laravel",
+  ],
   icons: ["/assets/logo.png"],
+  metadataBase: new URL("https://abubakarsarwar.vercel.app/"),
+  openGraph: {
+    title: "Abubakar",
+    description: "Creative developer specializing in web development",
+    type: "website",
+    url: "https://abubakarsarwar.vercel.app/",
+    siteName: "https://abubakarsarwar.vercel.app/",
+  },
 };
 
 export default function RootLayout({
