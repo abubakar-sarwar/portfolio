@@ -44,6 +44,8 @@ const Nav = () => {
         <button
           onClick={() => setMenuMobile(true)}
           className="menu-toggle link"
+          aria-label="menu toggle"
+          title="Toggle Menu"
         >
           <FiMenu />
         </button>

@@ -47,7 +47,7 @@ export default function Home() {
           <div className="container">
             <div className="flx flx-c flx-jc">
               <Image
-                src="/assets/bg_home_04.png"
+                src="/assets/bg_home_04.webp"
                 alt="abubakar"
                 className="banner_image"
                 width={300}
@@ -60,35 +60,35 @@ export default function Home() {
               <div className="row">
                 <div className="home-col">
                   <div className="main-copy">
-                    <h5>Muhammad Abu Bakar</h5>
+                    <p>Muhammad Abu Bakar</p>
                     <h1 className="large mt-1">
                       I'm developing Creative & Interactive webapps.
                     </h1>
-                    <h3 className="header-light mt-1">
+                    <h2 className="header-light mt-1">
                       Over the past 3+ years, as a developer, I build web-based
                       solutions that prioritize functionality and user
                       experience. I enjoy turning ideas into reality by creating
                       practical and visually appealing web applications.
-                    </h3>
+                    </h2>
                     <nav className="links flx flx-c">
-                      <h4>
+                      <h3>
                         <a href="#Projects" className="scroll-to special">
                           View Projects
                         </a>
-                      </h4>
+                      </h3>
                       <span className="ml-1 mr-1">or</span>
-                      <h4>
+                      <h3>
                         <Link href="/about" className="internal special">
                           Read About Me
                         </Link>
-                      </h4>
+                      </h3>
                     </nav>
                   </div>
                 </div>
               </div>
-              <Link href="#portfolio" className="ic-mouse">
+              <div className="ic-mouse">
                 <div className="ic-scroll"></div>
-              </Link>
+              </div>
             </div>
           </div>
         </div>

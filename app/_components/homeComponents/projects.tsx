@@ -60,6 +60,7 @@ const Projects = () => {
                               href={item?.gitLink}
                               target="_blank"
                               className="ic-git"
+                              aria-label="Project Github Link"
                             >
                               <AiFillGithub />
                             </Link>
@@ -71,6 +72,7 @@ const Projects = () => {
                               href={item?.liveLink}
                               target="_blank"
                               className="ic-live"
+                              aria-label="Project Live Link"
                             >
                               <BsArrowRight />
                             </Link>
