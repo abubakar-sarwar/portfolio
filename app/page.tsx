@@ -44,7 +44,7 @@ export default function Home() {
         <div className="home-top">
           <Image
             src="/assets/bg_home_2.svg"
-            alt="brand"
+            alt="coder"
             width={100}
             height={100}
             className="bg-img"
