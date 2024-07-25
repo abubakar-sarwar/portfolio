@@ -3,6 +3,7 @@ import Link from "next/link";
 import { addTilt, removeTilt } from "@/utils/utils";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
+import Image from "next/image";
 
 const WhatsNew = () => {
   useEffect(() => {
@@ -36,8 +37,10 @@ const WhatsNew = () => {
                     <BsArrowRight />
                   </Link>
                 </div>
-                <img
+                <Image
                   src="/assets/Insta-card.avif"
+                  width={100}
+                  height={100}
                   alt="instagram"
                   className="card-img"
                 />
@@ -80,9 +83,11 @@ const WhatsNew = () => {
                     </li>
                   </ul>
                 </div>
-                <img
+                <Image
                   src="/assets/git_linkedin.avif"
                   alt="instagram"
+                  width={100}
+                  height={100}
                   className="card-img"
                 />
               </div>

@@ -177,7 +177,7 @@ button:disabled,
   opacity: 0.65;
 }
 .txt-muted {
-  color: $txt-muted;
+  color: rgba($txt-light, 0.8);
 }
 
 // CUSTOM PROPERTIES

@@ -227,7 +227,7 @@ button:disabled,
 }
 
 .txt-muted {
-  color: rgba(71, 71, 71, 0.4509803922);
+  color: rgba(71, 71, 71, 0.8);
 }
 
 .flx {
@@ -1167,6 +1167,7 @@ footer .projects a:hover svg {
 }
 .about .card-img {
   width: 100%;
+  height: auto;
 }
 .about .content p {
   font-size: 24px;
