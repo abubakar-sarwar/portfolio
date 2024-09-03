@@ -36,9 +36,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Abubakar",
     description: "Creative developer specializing in web development",
+    images: ["/assets/abubakarsarwar.png"],
     type: "website",
     url: "https://abubakarsarwar.vercel.app/",
     siteName: "https://abubakarsarwar.vercel.app/",
+    locale: "en_US",
   },
 };
 
