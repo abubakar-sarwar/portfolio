@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   title: "Portfolio | Abubakar - Mern Stack Developer | Laravel Developer",
   description:
     "I build web-based solutions that prioritize functionality and user experience. I enjoy turning ideas into reality by creating practical and visually appealing web applications.",
-  authors: [{ name: "Abubakar" }],
-  creator: "Abubakar",
-  publisher: "Abubakar",
-  applicationName: "Portfolio | Abubakar",
+  authors: [{ name: "M. Abubakar" }],
+  creator: "M. Abu Bakar",
+  publisher: "M. Abubakar",
+  applicationName: "Portfolio | M. Abubakar",
   keywords: [
     "Next.js",
     "React.js",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   icons: ["/assets/logo.png"],
   metadataBase: new URL("https://abubakarsarwar.vercel.app/"),
   openGraph: {
-    title: "Abubakar",
+    title: "M. Abubakar",
     description: "Creative developer specializing in web development",
     images: ["/assets/abubakarsarwar.png"],
     type: "website",
