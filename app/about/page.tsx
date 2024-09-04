@@ -37,7 +37,7 @@ const AboutPage = () => {
               <div className="col-50">
                 <div className="flx flx-c flx-jc">
                   <Image
-                    src="/assets/about_computer.webp"
+                    src="/assets/about_computer.avif"
                     className="about-image"
                     width={200}
                     height={300}
