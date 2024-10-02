@@ -42,6 +42,25 @@ const Experience = () => {
               <br />I have undertaken several notable projects during my tenure
               at Motive Coder:
             </p>
+            <p className="project_name">KAF:</p>
+            <ul className="project_do_list">
+              <li>
+                Developed the backend of a multi-role user application using
+                modern web technologies.
+              </li>
+              <li>
+                Ensured robust security and optimized performance for a seamless
+                experience across various devices.
+              </li>
+              <li>
+                Implemented API endpoints and role-based access control to
+                enhance user engagement and functionality.
+              </li>
+              <li>
+                Followed best practices for code maintainability and
+                scalability, ensuring a resilient and efficient codebase.
+              </li>
+            </ul>
             <p className="project_name">Just Imagine:</p>
             <ul className="project_do_list">
               <li>
