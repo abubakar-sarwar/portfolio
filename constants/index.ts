@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "KAF",
+    description:
+      'I developed the backend for "KAF" (kaf.ae), focusing on optimizing performance, security, and scalability to ensure a smooth and efficient user experience across the platform.',
+    technologies: [
+      "Next",
+      "Tailwindcss",
+      "Redux",
+      "Node",
+      "Express",
+      "MongoDB",
+    ],
+    image: "/assets/kaf.avif",
+    gitLink: "",
+    liveLink: "https://www.kaf.ae/",
+  },
+  {
     title: "Thrillquest",
     description:
       'I created "ThrillQuest," a GSAP-animated website, diving deep into GSAP to engineer captivating animations that enhance user engagement and experience for this personal project.',
@@ -7,24 +23,6 @@ export const projects = [
     image: "/assets/project_05.avif",
     gitLink: "https://github.com/abubakar-sarwar/gsap-animation",
     liveLink: "https://thrillquest.vercel.app/",
-  },
-  {
-    title: "Plates for Cars",
-    description:
-      "A platform where automotive enthusiasts unite! Personalize your ride's identity with our cutting-edge online service for designing custom number plates.",
-    technologies: ["React", "Laravel", "MySQL"],
-    image: "/assets/project_03.avif",
-    gitLink: "",
-    liveLink: "https://boostremap.co.uk/",
-  },
-  {
-    title: "Just Imagine",
-    description:
-      "A platform where freelancers and recruiters connect! Transform your project ideas into reality with our innovative online service, bringing together top talent and ambitious projects in one seamless experience.",
-    technologies: ["Next", "Redux ToolKit", "Node js", "MongoDB"],
-    image: "/assets/just-Imagine.avif",
-    gitLink: "",
-    liveLink: "https://www.careerjustimagine.com/",
   },
   {
     title: "Dream Home",
@@ -36,6 +34,24 @@ export const projects = [
     liveLink: "https://gldreamhome.com/",
   },
   {
+    title: "DND TODO",
+    description:
+      'I developed "DND TODO," a drag-and-drop to-do list application that supports multiple projects, theme customization, and intuitive task management, showcasing my ability to create versatile and user-friendly digital tools.',
+    technologies: ["Next", "Tailwindcss", "Redux"],
+    image: "/assets/project_06.avif",
+    gitLink: "https://github.com/abubakar-sarwar/dnd-todo-custom",
+    liveLink: "https://dnd-todo-custom.vercel.app/",
+  },
+  {
+    title: "Plates for Cars",
+    description:
+      "A platform where automotive enthusiasts unite! Personalize your ride's identity with our cutting-edge online service for designing custom number plates.",
+    technologies: ["React", "Laravel", "MySQL"],
+    image: "/assets/project_03.avif",
+    gitLink: "",
+    liveLink: "https://boostremap.co.uk/",
+  },
+  {
     title: "GuideLine",
     description:
       'At NBT, I developed "GUIDELINE," a web application for travel advice, where I demonstrated my expertise in creating user-centered digital solutions.',
@@ -45,13 +61,13 @@ export const projects = [
     liveLink: "https://www.glgroupuae.com/",
   },
   {
-    title: "DND TODO",
+    title: "Just Imagine",
     description:
-      'I developed "DND TODO," a drag-and-drop to-do list application that supports multiple projects, theme customization, and intuitive task management, showcasing my ability to create versatile and user-friendly digital tools.',
-    technologies: ["Next", "Tailwindcss", "Redux"],
-    image: "/assets/project_06.avif",
-    gitLink: "https://github.com/abubakar-sarwar/dnd-todo-custom",
-    liveLink: "https://dnd-todo-custom.vercel.app/",
+      "A platform where freelancers and recruiters connect! Transform your project ideas into reality with our innovative online service, bringing together top talent and ambitious projects in one seamless experience.",
+    technologies: ["Next", "Redux ToolKit", "Node js", "MongoDB"],
+    image: "/assets/just-Imagine.avif",
+    gitLink: "",
+    liveLink: "https://www.careerjustimagine.com/",
   },
 ];
 
