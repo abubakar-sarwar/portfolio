@@ -22,7 +22,7 @@ const Experience = () => {
         </div>
         <div className="row animate">
           <div className="col-33">
-            <h3 className="experience-des">Frontend Developer</h3>
+            <h3 className="experience-des">MERN Stack Developer</h3>
           </div>
           <div className="col-33 item-center">
             <p className="experience-para">Motive Coder</p>
@@ -32,7 +32,7 @@ const Experience = () => {
           </div>
           <div className="col-1">
             <p className="experience-para m-1">
-              As a dedicated Full Stack Developer at Motive Coder, I work
+              As a dedicated MERN Stack Developer at Motive Coder, I work
               closely with teams in this dynamic profession to convert design
               concepts into responsive and interactive online applications.
               Focusing on developing interactive and responsive web
