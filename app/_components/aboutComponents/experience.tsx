@@ -1,8 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import { addObserver, createObserver, removeObserver } from "@/utils/utils";
-import Link from "next/link";
-import { BsArrowRight } from "react-icons/bs";
 
 const Experience = () => {
   useEffect(() => {
@@ -27,22 +25,22 @@ const Experience = () => {
             <h3 className="experience-des">Frontend Developer</h3>
           </div>
           <div className="col-33 item-center">
-            <p className="experience-para">Noble Bridge Technologies</p>
+            <p className="experience-para">Motive Coder</p>
           </div>
           <div className="col-33 item-right">
             <span className="experience-para">November 2023 — Present</span>
           </div>
           <div className="col-1">
             <p className="experience-para m-1">
-              As a dedicated Full Stack Developer at Noble Bridge Technologies,
-              I work closely with teams in this dynamic profession to convert
-              design concepts into responsive and interactive online
-              applications. Focusing on developing interactive and responsive
-              web applications. My area of expertise is using Express.js,
-              React.js, Next.js, Node.js, and MongoDB to create scalable,
-              dynamic solutions that place the user experience first.
+              As a dedicated Full Stack Developer at Motive Coder, I work
+              closely with teams in this dynamic profession to convert design
+              concepts into responsive and interactive online applications.
+              Focusing on developing interactive and responsive web
+              applications. My area of expertise is using Express.js, React.js,
+              Next.js, Node.js, and MongoDB to create scalable, dynamic
+              solutions that place the user experience first.
               <br />I have undertaken several notable projects during my tenure
-              at Noble Bridge Technologies:
+              at Motive Coder:
             </p>
             <p className="project_name">Just Imagine:</p>
             <ul className="project_do_list">
