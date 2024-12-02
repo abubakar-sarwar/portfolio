@@ -1,5 +1,20 @@
 export const projects = [
   {
+    title: "Next-Simple-Select",
+    description:
+      'I developed and maintain the Next-Simple-Select npm package, designed to deliver a lightweight, customizable, and efficient select component for Next.js applications, ensuring developers can create seamless user experiences with minimal effort.',
+    technologies: [
+      "React.js",
+      "Tailwindcss",
+      "TypeScript",
+      "JavaScript",
+      "tsup",
+    ],
+    image: "/assets/next-simple-select.avif",
+    gitLink: "https://github.com/abubakar-sarwar/next-simple-select",
+    liveLink: "https://www.npmjs.com/package/next-simple-select",
+  },
+  {
     title: "KAF",
     description:
       'I developed the backend for "KAF" (kaf.ae), focusing on optimizing performance, security, and scalability to ensure a smooth and efficient user experience across the platform.',
