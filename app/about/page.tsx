@@ -18,7 +18,7 @@ const AboutPage = () => {
                   <div className="ml-desc">
                     <p className="about-para">Hello, I'm Muhammad Abu Bakar.</p>
                     <p className="about-para">
-                      Passionate MERN Stack Developer with 3+ years of
+                      Passionate Full Stack Developer(Team lead) with 3+ years of
                       experience in web development in the tech industry.
                       Skilled at creating scalable and maintainable web apps
                       while focusing on delivering excellent user experiences

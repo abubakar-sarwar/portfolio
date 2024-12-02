@@ -21,6 +21,8 @@ export const metadata: Metadata = {
   publisher: "M. Abubakar",
   applicationName: "Portfolio | M. Abubakar",
   keywords: [
+    "M. Abubakar",
+    "Abubakar",
     "Next.js",
     "React.js",
     "Node.js",

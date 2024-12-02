@@ -180,8 +180,6 @@
     }
 
     &-para {
-      color: $txt-light;
-
       @include breakpoint-down(small) {
         font-size: 1.05rem;
 
