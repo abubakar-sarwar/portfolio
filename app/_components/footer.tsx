@@ -44,7 +44,7 @@ const Footer = () => {
             <div className="projects">
               <h1>Latest Projects</h1>
               <ul>
-                {projects.map((item: ProjectType, index) => (
+                {projects?.slice(0, 5)?.map((item: ProjectType, index) => (
                   <li key={index}>
                     <Link
                       href={item?.liveLink || item?.gitLink}

@@ -1,5 +1,19 @@
 export const projects = [
   {
+    title: "TMS",
+    description:
+      'A TMS project focused on managing load customer carriers, featuring a user-friendly admin panel with seamless dark and light mode options for enhanced usability and efficient transportation management.',
+    technologies: [
+      "Next.js",
+      "Tailwindcss",
+      "TypeScript",
+      "JavaScript",
+    ],
+    image: "/assets/tms-jet.avif",
+    gitLink: "",
+    liveLink: "https://tms-jet.vercel.app/login",
+  },
+  {
     title: "Next-Simple-Select",
     description:
       'I developed and maintain the Next-Simple-Select npm package, designed to deliver a lightweight, customizable, and efficient select component for Next.js applications, ensuring developers can create seamless user experiences with minimal effort.',
