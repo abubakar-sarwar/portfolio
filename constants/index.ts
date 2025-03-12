@@ -31,7 +31,7 @@ export const projects = [
   {
     title: "KAF",
     description:
-      'I developed the backend for "KAF" (kaf.ae), focusing on optimizing performance, security, and scalability to ensure a smooth and efficient user experience across the platform.',
+      'I developed the backend for "KAF", focusing on optimizing performance, security, and scalability to ensure a smooth and efficient user experience across the platform.',
     technologies: [
       "Next",
       "Tailwindcss",
@@ -56,7 +56,7 @@ export const projects = [
   {
     title: "Dream Home",
     description:
-      "At NBT, I crafted 'Dream Home,' a furniture e-commerce site in collaboration with Dearm Home Project, showcasing my skills in creating compelling online platforms.",
+      "I crafted 'Dream Home', a furniture e-commerce site in collaboration with Dearm Home Project, showcasing my skills in creating compelling online platforms.",
     technologies: ["Next", "Node", "Express", "MongoDB", "Redux"],
     image: "/assets/project_02.avif",
     gitLink: "",
@@ -65,7 +65,7 @@ export const projects = [
   {
     title: "DND TODO",
     description:
-      'I developed "DND TODO," a drag-and-drop to-do list application that supports multiple projects, theme customization, and intuitive task management, showcasing my ability to create versatile and user-friendly digital tools.',
+      'I developed "DND TODO", a drag-and-drop to-do list application that supports multiple projects, theme customization, and intuitive task management, showcasing my ability to create versatile and user-friendly digital tools.',
     technologies: ["Next", "Tailwindcss", "Redux"],
     image: "/assets/project_06.avif",
     gitLink: "https://github.com/abubakar-sarwar/dnd-todo-custom",
@@ -83,7 +83,7 @@ export const projects = [
   {
     title: "GuideLine",
     description:
-      'At NBT, I developed "GUIDELINE," a web application for travel advice, where I demonstrated my expertise in creating user-centered digital solutions.',
+      'I developed "GUIDELINE", a web application for travel advice, where I demonstrated my expertise in creating user-centered digital solutions.',
     technologies: ["Next", "Node", "Express", "MongoDB", "Redux"],
     image: "/assets/project_04.avif",
     gitLink: "",
@@ -105,7 +105,7 @@ export const FrontendSkills = [
   "React.js",
   "TailwindCSS",
   "Redux ( Redux ToolKit )",
-  "Ract-Router-dom",
+  "React-Router-dom",
   "GSAP",
   "JavaScript",
   "TypeScript",
@@ -121,6 +121,8 @@ export const BackendSkills = [
   "Laravel",
   "MySQL",
   "Sanctum",
+  "Socket.IO",
+  "Stripe Connect"
 ];
 
 export const Tools = [
@@ -129,4 +131,5 @@ export const Tools = [
   "Postman",
   "Postman Canary",
   "Vercel",
+  "npm"
 ];
