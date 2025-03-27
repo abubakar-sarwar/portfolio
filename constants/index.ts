@@ -1,5 +1,19 @@
 export const projects = [
   {
+    title: "Car Tracking System",
+    description:
+      'A full-featured Car Tracking System designed for seamless fleet management, offering real-time vehicle tracking with Google Maps integration, live video dashcam feed, instant location-based alerts, and comprehensive management of cars, drivers, devices, and reports. Built for enhanced control, safety, and efficiency.',
+    technologies: [
+      "Next.js",
+      "Tailwindcss",
+      "TypeScript",
+      "JavaScript",
+    ],
+    image: "/assets/car_tracking_system.avif",
+    gitLink: "",
+    liveLink: "",
+  },
+  {
     title: "TMS",
     description:
       'A TMS project focused on managing load customer carriers, featuring a user-friendly admin panel with seamless dark and light mode options for enhanced usability and efficient transportation management.',
