@@ -2,7 +2,7 @@ import CursorCircle from "@/app/_components/cursorCircle";
 import Footer from "@/app/_components/footer";
 import Nav from "@/app/_components/nav";
 import "@/css/styles.css";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 import { Poppins } from "next/font/google";
 
@@ -12,22 +12,42 @@ const poppins = Poppins({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  themeColor: "white",
+};
+
+const description =
+  "I'm M. Abu Bakar, a Software Engineer who builds fast, scalable, and user-friendly web applications. I specialize in turning ideas into powerful, modern digital experiences using technologies like Next.js, Laravel, and MongoDB.";
 export const metadata: Metadata = {
-  title: "Portfolio | Abubakar - Mern Stack Developer | Laravel Developer",
-  description:
-    "I build web-based solutions that prioritize functionality and user experience. I enjoy turning ideas into reality by creating practical and visually appealing web applications.",
-  authors: [{ name: "M. Abubakar" }],
+  manifest: "https://abubakarsarwar.vercel.app/manifest.json",
+  title: "Portfolio | M. Abu Bakar - Software Engineer",
+  description,
+  authors: [{ name: "M. Abu Bakar" }],
   creator: "M. Abu Bakar",
-  publisher: "M. Abubakar",
-  applicationName: "Portfolio | M. Abubakar",
+  publisher: "M. Abu Bakar",
+  applicationName: "Portfolio | M. Abu Bakar",
   keywords: [
-    "M. Abubakar",
-    "Abubakar",
+    "M. Abu Bakar",
+    "Software Engineer",
+    "Full-Stack Developer",
+    "Software Engineer",
+    "MERN Stack Developer",
+    "Next.js Developer",
+    "React Developer",
+    "Node.js Developer",
+    "Software Engineer Portfolio",
+    "Freelance Web Developer",
+    "Best Next.js developer",
+    "Best Node.js developer",
     "Next.js",
     "React.js",
     "Node.js",
     "Express.js",
     "MongoDB",
+    "LangChain",
+    "OpenRouter",
+    "OpenAI",
+    "Redis",
     "JavaScript",
     "TypeScript",
     "Tailwindcss",
@@ -37,11 +57,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://abubakarsarwar.vercel.app/"),
   openGraph: {
     title: "M. Abubakar",
-    description: "Creative developer specializing in web development",
+    description,
     images: ["/assets/abubakarsarwar.png"],
     type: "website",
-    url: "https://abubakarsarwar.vercel.app/",
-    siteName: "https://abubakarsarwar.vercel.app/",
+    url: new URL("https://abubakarsarwar.vercel.app/"),
+    siteName: "abubakarsarwar.vercel.app",
     locale: "en_US",
   },
 };

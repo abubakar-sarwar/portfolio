@@ -4,8 +4,9 @@ import { addObserver, createObserver, removeObserver } from "@/utils/utils";
 
 const Experience = () => {
   useEffect(() => {
+    let observer: IntersectionObserver;
     if (typeof IntersectionObserver !== "undefined") {
-      var observer = createObserver();
+      observer = createObserver();
       addObserver(observer);
     }
 
@@ -32,7 +33,7 @@ const Experience = () => {
           </div>
           <div className="col-1">
             <p className="experience-para m-1">
-              As a dedicated Full Stack Developer(Team lead) at Motive Coder, I work
+              As a dedicated Software Engineer at Motive Coder, I work
               closely with teams in this dynamic profession to convert design
               concepts into responsive and interactive online applications.
               Focusing on developing interactive and responsive web
@@ -128,7 +129,7 @@ const Experience = () => {
             <p className="experience-para m-1">
               My career has been built on my ability to independently provide
               high-caliber web apps that are customized to meet the objectives
-              of clients. In the freelance world, I've built a solid reputation
+              of clients. In the freelance world, I&apos;ve built a solid reputation
               for dependability and excellence thanks to my focus on seamless,
               user-friendly experiences.
             </p>

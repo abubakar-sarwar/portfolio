@@ -1,6 +1,30 @@
+import { SKILLS } from "@/constants";
+import { addTilt, removeTilt } from "@/utils/utils";
 import Image from "next/image";
+import { useEffect } from "react";
 
 const Skills = () => {
+  useEffect(() => {
+    addTilt();
+
+    return () => {
+      removeTilt();
+    };
+  }, []);
+
+  const chunkArray = (
+    arr: {
+      icon: string;
+      label: string;
+    }[],
+    size: number,
+  ) =>
+    Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
+      arr.slice(i * size, i * size + size),
+    );
+
+  const skillData = chunkArray(SKILLS, 5);
+
   return (
     <div className="skills sec-pd">
       <div className="container">
@@ -12,195 +36,55 @@ const Skills = () => {
               </div>
               <h2 style={{ transitionDelay: ".15s" }}>Front-end Dev</h2>
               <p style={{ transitionDelay: ".25s" }}>
-                Passionate about UI/UX. Over 3+ years of development experience
-                in Next.js, React.js, React-Router-Dom, TailwindCSS, SCSS, CSS,
-                Redux, Redux ToolKit, GSAP, JavaScript, TypeScript.
+                Passionate about creating fast, responsive, and user-centric
+                interfaces. I specialize in building seamless digital
+                experiences that prioritize performance, accessibility, and
+                visual appeal. With over 2+ years of experience, I bring strong
+                expertise in UI architecture, component-driven design, and
+                modern frontend workflows.
               </p>
               <h2 style={{ transitionDelay: ".35s" }} className="mt-1">
                 Back-end Dev
               </h2>
               <p style={{ transitionDelay: ".45s" }}>
-                Over 2+ years of development experience in Laravel with MySQL
-                and Node.js with MonogDB.
+                Skilled in building scalable, secure, and high-performance
+                server-side systems. I design and develop robust APIs, manage
+                databases efficiently, and ensure smooth integration between
+                front-end and back-end. With a strong foundation in application
+                architecture, authentication, and data handling, I deliver
+                backend solutions that are reliable and production-ready.
               </p>
-              <p style={{ transitionDelay: ".55s" }} className="mt-2">
-                All My Websites/Webapps Are Lovingly Hand Coded, Responsive and
-                Cross-browser compatible.
+              <p className="mt-1">
+                <strong>Technologies</strong>:{" "}
+                {SKILLS.map((item) => item.label).join(", ")}
               </p>
             </div>
           </div>
           <div className="col-7 md-full">
             <div className="skills-wrap">
               <div className="skills-case flx animate">
-                <div className="case-group">
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/react.png"
-                      alt="React"
-                      width={65}
-                      height={65}
-                    />
-                    <p>React JS</p>
+                {skillData.map((group, groupIndex) => (
+                  <div
+                    key={groupIndex}
+                    className={`case-group${
+                      groupIndex === skillData.length - 1 ? "" : " c-mr"
+                    }`}
+                  >
+                    {group.map((skill, index) => (
+                      <div key={index} className="case-outer c-mb">
+                        <div className="case">
+                          <Image
+                            src={skill.icon}
+                            alt={skill.label}
+                            width={65}
+                            height={65}
+                          />
+                        </div>
+                        <p>{skill.label}</p>
+                      </div>
+                    ))}
                   </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/next.avif"
-                      alt="next"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/node.svg"
-                      alt="node"
-                      width={57}
-                      height={57}
-                    />
-                  </div>
-                  <div className="case">
-                    <Image
-                      src="/skills/typescript.avif"
-                      alt="typescript"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                </div>
-                <div className="case-group c-mr">
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/laravel.avif"
-                      alt="laravel"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/mysql.avif"
-                      alt="mysql"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/mongoDB.avif"
-                      alt="mongoDB"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case">
-                    <Image
-                      src="/skills/tailwind.avif"
-                      alt="tailwind"
-                      width={57}
-                      height={57}
-                    />
-                  </div>
-                </div>
-                <div className="case-group c-mr">
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/html.avif"
-                      alt="html"
-                      width={75}
-                      height={70}
-                    />
-                    <p>HTML</p>
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/css.avif"
-                      alt="css"
-                      width={63}
-                      height={60}
-                    />
-                    <p>CSS</p>
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/javascript.avif"
-                      alt="javascript"
-                      width={57}
-                      height={57}
-                    />
-                    <p>JavaScript</p>
-                  </div>
-                  <div className="case">
-                    <Image
-                      src="/skills/sass.avif"
-                      alt="SASS"
-                      width={75}
-                      height={65}
-                    />
-                  </div>
-                </div>
-                <div className="case-group c-mr">
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/jquery.avif"
-                      alt="jquery"
-                      width={130}
-                      height={40}
-                    />
-                    <p>Jquery</p>
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/npm.avif"
-                      alt="npm"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/postman.avif"
-                      alt="postman"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case">
-                    <Image
-                      src="/skills/vs_code.avif"
-                      alt="vs_code"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                </div>
-                <div className="case-group c-mr">
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/git.avif"
-                      alt="git"
-                      width={100}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/redux.avif"
-                      alt="redux"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  <div className="case c-mb">
-                    <Image
-                      src="/skills/gsap.avif"
-                      alt="gsap"
-                      width={130}
-                      height={40}
-                    />
-                  </div>
-                  {/* <div className="case">
-                  </div> */}
-                </div>
+                ))}
               </div>
             </div>
           </div>

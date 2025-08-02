@@ -16,14 +16,14 @@ const AboutPage = () => {
                     <span className="ml-name">Abu Bakar</span>
                   </h1>
                   <div className="ml-desc">
-                    <p className="about-para">Hello, I'm Muhammad Abu Bakar.</p>
+                    <p className="about-para">Hello, I&apos;m Muhammad Abu Bakar.</p>
                     <p className="about-para">
-                      Passionate Full Stack Developer(Team lead) with 3+ years of
+                      Passionate Software Engineer with 2+ years of
                       experience in web development in the tech industry.
                       Skilled at creating scalable and maintainable web apps
                       while focusing on delivering excellent user experiences
                       and optimizing application speed using technologies like
-                      Next.js, Node.js, Laravel, etc.
+                      Next.js, Node.js, Express.js, Laravel, etc.
                     </p>
                     <br />
                     <p className="about-para">

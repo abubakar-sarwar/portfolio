@@ -6,8 +6,9 @@ import { FiCheck } from "react-icons/fi";
 
 const SkillsAbout = () => {
   useEffect(() => {
+    let observer: IntersectionObserver;
     if (typeof IntersectionObserver !== "undefined") {
-      var observer = createObserver();
+      observer = createObserver();
       addObserver(observer);
     }
 

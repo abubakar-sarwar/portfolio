@@ -457,9 +457,12 @@
   &-case {
     position: relative;
     padding: 40px 30px;
-    direction: rtl;
-    transform-style: preserve-3d;
-    transform: perspective(1600px) rotateY(-15deg);
+    justify-content: end;
+
+    &:not(:hover) {
+      transform-style: preserve-3d;
+      transform: perspective(1600px) rotateY(-15deg);
+    }
 
     @include breakpoint-down(small) {
       display: grid;
@@ -480,11 +483,11 @@
     }
 
     .c-mr {
-      margin-right: 25px;
+      margin-right: 20px;
     }
 
     .c-mb {
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
 
     @include breakpoint-down(small) {
@@ -497,23 +500,27 @@
       }
     }
 
+    .case-outer p {
+      text-align: center;
+      font-size: 14px;
+    }
+
     .case {
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-direction: column;
       width: 200px;
       height: 125px;
       padding: 20px 15px;
       border-radius: 16px;
-      text-align: center;
       background-color: white;
+      margin-bottom: 8px;
       box-shadow: 0 0 13px 0 rgba(47, 43, 61, 0.16);
       transition: all 0.3s;
 
       &:hover {
         transform: scale(1.05);
-        box-shadow: 0 0 12px 5px rgba(47, 43, 61, 0.16);
+        box-shadow: 0 0 12px 5px rgba(47, 43, 61, 0.1);
       }
 
       @include breakpoint-down(xxlarge) {

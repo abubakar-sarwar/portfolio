@@ -1,16 +1,17 @@
 "use client";
-import { useEffect } from "react";
 import Link from "next/link";
-import { addObserver, createObserver, removeObserver } from "@/utils/utils";
 import Image from "next/image";
-import WhatsNew from "@/app/_components/homeComponents/whatsNew";
+import { useEffect } from "react";
 import Skills from "@/app/_components/homeComponents/skills";
+import WhatsNew from "@/app/_components/homeComponents/whatsNew";
 import Projects from "@/app/_components/homeComponents/projects";
+import { addObserver, createObserver, removeObserver } from "@/utils/utils";
 
 export default function Home() {
   useEffect(() => {
+    let observer: IntersectionObserver;
     if (typeof IntersectionObserver !== "undefined") {
-      var observer = createObserver();
+      observer = createObserver();
       addObserver(observer);
     }
 
@@ -71,7 +72,7 @@ export default function Home() {
                   <div className="main-copy">
                     <p>Muhammad Abu Bakar</p>
                     <h1 className="large mt-1">
-                      I'm developing Creative & Interactive webapps.
+                      I&apos;m developing Creative & Interactive webapps.
                     </h1>
                     <h2 className="header-light mt-1">
                       Over the past 3+ years, as a developer, I build web-based

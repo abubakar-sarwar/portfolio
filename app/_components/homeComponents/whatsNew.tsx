@@ -18,7 +18,7 @@ const WhatsNew = () => {
     <div className="container">
       <div className="about">
         <div className="sec-title">
-          <h1 className="title animate animate-top">WHAT'S NEW?</h1>
+          <h1 className="title animate animate-top">WHAT&apos;S NEW?</h1>
         </div>
         <div className="row">
           <div className="col-50 mb-2">

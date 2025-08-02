@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abubakarsarwar.vercel.app/sitemap.xml
