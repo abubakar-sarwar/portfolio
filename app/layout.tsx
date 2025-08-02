@@ -1,9 +1,11 @@
-import CursorCircle from "@/app/_components/cursorCircle";
-import Footer from "@/app/_components/footer";
 import Nav from "@/app/_components/nav";
-import "@/css/styles.css";
+import Footer from "@/app/_components/footer";
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import CursorCircle from "@/app/_components/cursorCircle";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
+import "@/css/styles.css";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
@@ -74,6 +76,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className}`}>
+        <Analytics />
+        <SpeedInsights />
         <CursorCircle />
         <Nav />
         <main>{children}</main>
