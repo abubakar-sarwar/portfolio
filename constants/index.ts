@@ -1,14 +1,24 @@
 export const projects = [
   {
-    title: "Car Tracking System",
+    title: "BLZ Furniture",
     description:
-      'A full-featured Car Tracking System designed for seamless fleet management, offering real-time vehicle tracking with Google Maps integration, live video dashcam feed, instant location-based alerts, and comprehensive management of cars, drivers, devices, and reports. Built for enhanced control, safety, and efficiency.',
+      "I developed 'BLZ Furniture', a modern furniture e-commerce platform built in collaboration with Luxe Living Studio, highlighting my expertise in building seamless, user-focused online shopping experiences.",
     technologies: [
+      "Node.js",
+      "MongoDB",
       "Next.js",
       "Tailwindcss",
       "TypeScript",
-      "JavaScript",
     ],
+    image: "/assets/blzfurniture.avif",
+    gitLink: "",
+    liveLink: "https://blzfurniture.com",
+  },
+  {
+    title: "Car Tracking System",
+    description:
+      "A full-featured Car Tracking System designed for seamless fleet management, offering real-time vehicle tracking with Google Maps integration, live video dashcam feed, instant location-based alerts, and comprehensive management of cars, drivers, devices, and reports. Built for enhanced control, safety, and efficiency.",
+    technologies: ["Next.js", "Tailwindcss", "TypeScript", "JavaScript"],
     image: "/assets/car_tracking_system.avif",
     gitLink: "",
     liveLink: "",
@@ -16,13 +26,8 @@ export const projects = [
   {
     title: "TMS",
     description:
-      'A TMS project focused on managing load customer carriers, featuring a user-friendly admin panel with seamless dark and light mode options for enhanced usability and efficient transportation management.',
-    technologies: [
-      "Next.js",
-      "Tailwindcss",
-      "TypeScript",
-      "JavaScript",
-    ],
+      "A TMS project focused on managing load customer carriers, featuring a user-friendly admin panel with seamless dark and light mode options for enhanced usability and efficient transportation management.",
+    technologies: ["Next.js", "Tailwindcss", "TypeScript", "JavaScript"],
     image: "/assets/tms-jet.avif",
     gitLink: "",
     liveLink: "https://tms-jet.vercel.app/login",
@@ -30,7 +35,7 @@ export const projects = [
   {
     title: "Next-Simple-Select",
     description:
-      'I developed and maintain the Next-Simple-Select npm package, designed to deliver a lightweight, customizable, and efficient select component for Next.js applications, ensuring developers can create seamless user experiences with minimal effort.',
+      "I developed and maintain the Next-Simple-Select npm package, designed to deliver a lightweight, customizable, and efficient select component for Next.js applications, ensuring developers can create seamless user experiences with minimal effort.",
     technologies: [
       "React.js",
       "Tailwindcss",
@@ -150,7 +155,7 @@ export const Tools = [
   "Visual Studio Code",
   "Postman",
   "Postman Canary",
-  "npm"
+  "npm",
 ];
 
 export const SKILLS = [
