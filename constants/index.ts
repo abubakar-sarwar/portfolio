@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "BLZ Furniture",
     description:
-      "I developed 'BLZ Furniture', a modern furniture e-commerce platform built in collaboration with Luxe Living Studio, highlighting my expertise in building seamless, user-focused online shopping experiences.",
+      "I developed 'BLZ Furniture', a modern furniture e-commerce platform, highlighting my expertise in building seamless, user-focused online shopping experiences.",
     technologies: [
       "Node.js",
       "MongoDB",
