@@ -1,6 +1,7 @@
 import Nav from "@/app/_components/nav";
 import Footer from "@/app/_components/footer";
 import type { Metadata, Viewport } from "next";
+import { Person, WithContext } from "schema-dts";
 import { Analytics } from "@vercel/analytics/next";
 import CursorCircle from "@/app/_components/cursorCircle";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -73,9 +74,85 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  const jsonLd: WithContext<Person> = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Abu Bakar",
+    "jobTitle": "Software Engineer",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Engineering and Technology, Lahore"
+    },
+    "knowsAbout": [
+      "Software Engineer",
+      "Full Stack Developer",
+      "MERN Stack Developer",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Web Development"
+    ],
+    "url": "https://abubakarsarwar.vercel.app",
+    "image": "https://abubakarsarwar.vercel.app/assets/abubakarsarwar.png",
+    "description":
+      "I'm M. Abu Bakar, a Software Engineer who builds fast, scalable, and user-friendly web applications. I specialize in turning ideas into powerful, modern digital experiences.",
+    "sameAs": [
+      "https://www.linkedin.com/in/muhammad-abubakar-b238a5298",
+      "https://github.com/abubakar-sarwar",
+      "https://www.instagram.com/web_dev_pk"
+    ],
+    "gender": "Male",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Epazz, Inc",
+      "url": "https://www.epazz.com"
+    },
+    "workLocation": {
+      "@type": "Place",
+      "name": "Epazz Inc",
+      "url": "https://www.epazz.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Block J3 Phase 2 Johar Town",
+        "addressLocality": "Lahore",
+        "addressRegion": "Punjab",
+        "addressCountry": "Pakistan"
+      }
+    },
+    "nationality": {
+      "@type": "Country",
+      "name": "Pakistan"
+    },
+    "skills": [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "LangChain",
+      "OpenRouter",
+      "OpenAI",
+      "Redis",
+      "RabbitMQ",
+      "JavaScript",
+      "TypeScript",
+      "Tailwindcss",
+      "Laravel",
+      "My SQL",
+      "GSAP"
+    ],
+    "knowsLanguage": ["English", "Urdu", "Hindi"]
+  };
+
   return (
     <html lang="en">
       <body className={`${poppins.className}`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c'),
+          }}
+        />
         <Analytics />
         <SpeedInsights />
         <CursorCircle />
