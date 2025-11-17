@@ -23,7 +23,7 @@ const description =
   "I'm M. Abu Bakar, a Software Engineer who builds fast, scalable, and user-friendly web applications. I specialize in turning ideas into powerful, modern digital experiences using technologies like Next.js, Laravel, and MongoDB.";
 export const metadata: Metadata = {
   manifest: "https://abubakarsarwar.vercel.app/manifest.json",
-  title: "Portfolio | M. Abu Bakar - Software Engineer",
+  title: "M. Abu Bakar | Software Engineer - Portfolio",
   description,
   authors: [{ name: "M. Abu Bakar" }],
   creator: "M. Abu Bakar",
