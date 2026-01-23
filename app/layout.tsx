@@ -67,6 +67,9 @@ export const metadata: Metadata = {
     siteName: "abubakarsarwar.vercel.app",
     locale: "en_US",
   },
+  verification: {
+    google: "gE7GnlftzkGuv9V-kio2naQ4VRL8Zac8GtRQccC-AV0"
+  }
 };
 
 export default function RootLayout({
