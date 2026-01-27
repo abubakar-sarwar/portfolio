@@ -20,17 +20,17 @@ export const viewport: Viewport = {
 };
 
 const description =
-  "I'm M. Abu Bakar, a Software Engineer who builds fast, scalable, and user-friendly web applications. I specialize in turning ideas into powerful, modern digital experiences using technologies like Next.js, Laravel, and MongoDB.";
+  "I'm Muhammad Abu Bakar, a Software Engineer who builds fast, scalable, and user-friendly web applications. I specialize in turning ideas into powerful, modern digital experiences using technologies like Next.js, Laravel, and MongoDB.";
 export const metadata: Metadata = {
   manifest: "https://abubakarsarwar.vercel.app/manifest.json",
-  title: "M. Abu Bakar | Software Engineer - Portfolio",
+  title: "Muhammad Abu Bakar | Software Engineer Portfolio",
   description,
-  authors: [{ name: "M. Abu Bakar" }],
-  creator: "M. Abu Bakar",
-  publisher: "M. Abu Bakar",
-  applicationName: "Portfolio | M. Abu Bakar",
+  authors: [{ name: "Muhammad Abu Bakar" }],
+  creator: "Muhammad Abu Bakar",
+  publisher: "Muhammad Abu Bakar",
+  applicationName: "Muhammad Abu Bakar | Software Engineer Portfolio",
   keywords: [
-    "M. Abu Bakar",
+    "Muhammad Abu Bakar",
     "Software Engineer",
     "Full-Stack Developer",
     "Software Engineer",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     images: ["/assets/abubakarsarwar.png"],
     type: "website",
     url: new URL("https://abubakarsarwar.vercel.app/"),
-    siteName: "abubakarsarwar.vercel.app",
+    siteName: "Muhammad Abu Bakar | Software Engineer Portfolio",
     locale: "en_US",
   },
   verification: {
@@ -98,7 +98,7 @@ export default function RootLayout({
     "url": "https://abubakarsarwar.vercel.app",
     "image": "https://abubakarsarwar.vercel.app/assets/abubakarsarwar.png",
     "description":
-      "I'm M. Abu Bakar, a Software Engineer who builds fast, scalable, and user-friendly web applications. I specialize in turning ideas into powerful, modern digital experiences.",
+      "I'm Muhammad Abu Bakar, a Software Engineer who builds fast, scalable, and user-friendly web applications. I specialize in turning ideas into powerful, modern digital experiences.",
     "sameAs": [
       "https://www.linkedin.com/in/muhammad-abubakar-b238a5298",
       "https://github.com/abubakar-sarwar",
