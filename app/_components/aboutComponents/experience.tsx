@@ -26,23 +26,97 @@ const Experience = () => {
             <h3 className="experience-des">Full Stack Developer</h3>
           </div>
           <div className="col-33 item-center">
-            <p className="experience-para">Motive Coder</p>
+            <p className="experience-para">Epazz Tech</p>
           </div>
           <div className="col-33 item-right">
-            <span className="experience-para">November 2023 — Present</span>
+            <span className="experience-para">October 2025 — Present</span>
           </div>
           <div className="col-1">
             <p className="experience-para m-1">
-              As a dedicated Software Engineer at Motive Coder, I work
-              closely with teams in this dynamic profession to convert design
-              concepts into responsive and interactive online applications.
-              Focusing on developing interactive and responsive web
-              applications. My area of expertise is using Express.js, React.js,
-              Next.js, Node.js, and MongoDB to create scalable, dynamic
-              solutions that place the user experience first.
+              As a Full Stack Developer at Epazz Tech, I design and build
+              scalable web applications by handling both frontend and backend
+              development. I collaborate with cross-functional teams to
+              transform ideas into high-performance and user-focused digital
+              products.
+              <br />
+              My work involves developing robust APIs, implementing secure
+              authentication and role-based systems, and crafting responsive,
+              intuitive UI/UX.
+              <br />I have contributed to multiple impactful projects,
+              including:
+            </p>
+            <p className="project_name">Othership:</p>
+            <ul className="project_do_list">
+              <li>
+                Designed and developed both frontend and backend of a multi-role
+                user application using modern web technologies.
+              </li>
+              <li>
+                Built and integrated scalable APIs, implementing secure
+                role-based access control for efficient user management.
+              </li>
+              <li>
+                Crafted responsive and intuitive UI/UX to ensure a seamless
+                experience across devices.
+              </li>
+              <li>
+                Optimized application performance and enforced strong security
+                practices for reliability and data protection.
+              </li>
+              <li>
+                Followed best practices for clean architecture, maintainability,
+                and scalability, resulting in a robust and efficient system.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="row animate mt-2">
+          <div className="col-33">
+            <h3 className="experience-des">Full Stack Developer</h3>
+          </div>
+          <div className="col-33 item-center">
+            <p className="experience-para">Motive Coder</p>
+          </div>
+          <div className="col-33 item-right">
+            <span className="experience-para">
+              November 2023 — October 2025
+            </span>
+          </div>
+          <div className="col-1">
+            <p className="experience-para m-1">
+              As a dedicated Software Engineer at Motive Coder, I work closely
+              with teams in this dynamic profession to convert design concepts
+              into responsive and interactive online applications. Focusing on
+              developing interactive and responsive web applications. My area of
+              expertise is using Express.js, React.js, Next.js, Node.js, and
+              MongoDB to create scalable, dynamic solutions that place the user
+              experience first.
               <br />I have undertaken several notable projects during my tenure
               at Motive Coder:
             </p>
+            <p className="project_name">BLZ Furniture:</p>
+            <ul className="project_do_list">
+              <li>
+                Developed a modern e-commerce platform using the latest web
+                technologies, handling both frontend and backend architecture.
+              </li>
+              <li>
+                Built scalable and secure APIs, implementing authentication and
+                role-based access for efficient user and admin management.
+              </li>
+              <li>
+                Designed and optimized a responsive, user-friendly UI/UX to
+                enhance customer experience across all devices.
+              </li>
+              <li>
+                Improved performance through efficient data handling, caching
+                strategies, and optimized rendering.
+              </li>
+              <li>
+                Followed best practices for maintainability and scalability,
+                ensuring a fast, reliable, and production-ready system.
+              </li>
+            </ul>
             <p className="project_name">KAF:</p>
             <ul className="project_do_list">
               <li>
@@ -60,25 +134,6 @@ const Experience = () => {
               <li>
                 Followed best practices for code maintainability and
                 scalability, ensuring a resilient and efficient codebase.
-              </li>
-            </ul>
-            <p className="project_name">Just Imagine:</p>
-            <ul className="project_do_list">
-              <li>
-                Developed the front-end of a multi-role user application using
-                modern web technologies.
-              </li>
-              <li>
-                Ensured full responsiveness, delivering a seamless experience
-                across various devices and screen sizes.
-              </li>
-              <li>
-                Implemented dynamic user interfaces and role-based features to
-                enhance user engagement and accessibility.
-              </li>
-              <li>
-                Utilized best practices for performance optimization and
-                maintainability, ensuring a robust and scalable codebase.
               </li>
             </ul>
             <p className="project_name">Dream Home:</p>
@@ -113,9 +168,28 @@ const Experience = () => {
                 cohesive and user-friendly consultancy platform.
               </li>
             </ul>
+            <p className="project_name">Just Imagine:</p>
+            <ul className="project_do_list">
+              <li>
+                Developed the front-end of a multi-role user application using
+                modern web technologies.
+              </li>
+              <li>
+                Ensured full responsiveness, delivering a seamless experience
+                across various devices and screen sizes.
+              </li>
+              <li>
+                Implemented dynamic user interfaces and role-based features to
+                enhance user engagement and accessibility.
+              </li>
+              <li>
+                Utilized best practices for performance optimization and
+                maintainability, ensuring a robust and scalable codebase.
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="row animate mt-2">
+        {/* <div className="row animate mt-2">
           <div className="col-33">
             <h3 className="experience-des">Freelaner</h3>
           </div>
@@ -151,7 +225,7 @@ const Experience = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

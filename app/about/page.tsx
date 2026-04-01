@@ -18,12 +18,11 @@ const AboutPage = () => {
                   <div className="ml-desc">
                     <p className="about-para">Hello, I&apos;m Muhammad Abu Bakar.</p>
                     <p className="about-para">
-                      Passionate Software Engineer with 2+ years of
+                      Passionate Software Engineer with 3+ years of
                       experience in web development in the tech industry.
                       Skilled at creating scalable and maintainable web apps
                       while focusing on delivering excellent user experiences
-                      and optimizing application speed using technologies like
-                      Next.js, Node.js, Express.js, Laravel, etc.
+                      and optimizing application speed.
                     </p>
                     <br />
                     <p className="about-para">

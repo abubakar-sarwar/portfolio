@@ -1,5 +1,20 @@
 export const projects = [
   {
+    title: "Othership",
+    description:
+      "Contributed to the development and enhancement of a Hybrid Workspace Management System (HWMS) for Othership, improving workspace booking, employee scheduling, and overall system performance. Worked on both frontend and backend to implement scalable APIs, refine role-based access control, and enhance UI/UX for a seamless user experience.",
+    technologies: [
+      "Nest.js",
+      "MongoDB",
+      "Next.js",
+      "Tailwindcss",
+      "TypeScript",
+    ],
+    image: "/assets/hwms.othership.com.avif",
+    gitLink: "",
+    liveLink: "https://hwms.othership.com/",
+  },
+  {
     title: "BLZ Furniture",
     description:
       "I developed 'BLZ Furniture', a modern furniture e-commerce platform, highlighting my expertise in building seamless, user-focused online shopping experiences.",
@@ -12,7 +27,7 @@ export const projects = [
     ],
     image: "/assets/blzfurniture.avif",
     gitLink: "",
-    liveLink: "https://blzfurniture.com",
+    liveLink: "",
   },
   {
     title: "Car Tracking System",
@@ -61,7 +76,7 @@ export const projects = [
     ],
     image: "/assets/kaf.avif",
     gitLink: "",
-    liveLink: "https://www.kaf.ae/",
+    liveLink: "",
   },
   {
     title: "Thrillquest",
@@ -106,7 +121,7 @@ export const projects = [
     technologies: ["Next", "Node", "Express", "MongoDB", "Redux"],
     image: "/assets/project_04.avif",
     gitLink: "",
-    liveLink: "https://www.glgroupuae.com/",
+    liveLink: "",
   },
   {
     title: "Just Imagine",
@@ -115,7 +130,7 @@ export const projects = [
     technologies: ["Next", "Redux ToolKit", "Node js", "MongoDB"],
     image: "/assets/just-Imagine.avif",
     gitLink: "",
-    liveLink: "https://www.careerjustimagine.com/",
+    liveLink: "",
   },
 ];
 

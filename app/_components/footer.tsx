@@ -44,17 +44,20 @@ const Footer = () => {
             <div className="projects">
               <h1>Latest Projects</h1>
               <ul>
-                {projects?.slice(0, 5)?.map((item: ProjectType, index) => (
-                  <li key={index}>
-                    <Link
-                      href={item?.liveLink || item?.gitLink}
-                      target="_blank"
-                    >
-                      {item?.title}&nbsp;
-                      <BsArrowRight />
-                    </Link>
-                  </li>
-                ))}
+                {projects
+                  ?.filter((item) => !!item.liveLink)
+                  ?.slice(0, 5)
+                  ?.map((item: ProjectType, index) => (
+                    <li key={index}>
+                      <Link
+                        href={item?.liveLink || item?.gitLink}
+                        target="_blank"
+                      >
+                        {item?.title}&nbsp;
+                        <BsArrowRight />
+                      </Link>
+                    </li>
+                  ))}
               </ul>
             </div>
           </div>

@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   icons: ["/assets/logo.png"],
   metadataBase: new URL("https://abubakarsarwar.vercel.app/"),
   openGraph: {
-    title: "M. Abubakar",
+    title: "Muhammad Abubakar",
     description,
     images: ["/assets/abubakarsarwar.png"],
     type: "website",

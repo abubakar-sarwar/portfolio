@@ -75,10 +75,10 @@ export default function Home() {
                       I&apos;m developing Creative & Interactive webapps.
                     </h1>
                     <h2 className="header-light mt-1">
-                      Over the past 3+ years, as a developer, I build web-based
-                      solutions that prioritize functionality and user
-                      experience. I enjoy turning ideas into reality by creating
-                      practical and visually appealing web applications.
+                      High-performing professional with 3+ years of experience
+                      delivering high-impact work in the software development
+                      industry. I specialize in creating scalable, fast, and
+                      user-focused solutions that drive real business impact.
                     </h2>
                     <nav className="links flx flx-c">
                       <h3>
