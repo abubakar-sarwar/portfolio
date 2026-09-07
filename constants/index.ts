@@ -10,9 +10,9 @@ export const projects = [
       "Tailwindcss",
       "TypeScript",
     ],
-    image: "/assets/hwms.othership.com.avif",
+    image: "/assets/odw.othership.com.avif",
     gitLink: "",
-    liveLink: "https://hwms.othership.com/",
+    liveLink: "https://odw.othership.com/",
   },
   {
     title: "BLZ Furniture",
@@ -149,7 +149,7 @@ export const FrontendSkills = [
 ];
 
 export const BackendSkills = [
-  "Node.js",
+  "Node.js/Nest.js",
   "Express.js",
   "MongoDB",
   "LangChain",
@@ -165,11 +165,11 @@ export const BackendSkills = [
 export const Tools = [
   "AWS",
   "Vercel",
+  "Claude Code",
   "Git",
   "Figma",
   "Visual Studio Code",
   "Postman",
-  "Postman Canary",
   "npm",
 ];
 
