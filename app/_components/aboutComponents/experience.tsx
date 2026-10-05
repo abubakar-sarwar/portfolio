@@ -19,7 +19,7 @@ const Experience = () => {
     <div className="experience mt-2">
       <div className="container">
         <div className="sec-title mb-2">
-          <h1 className="title animate animate-top">Experience</h1>
+          <h2 className="title animate animate-top">Experience</h2>
         </div>
         <div className="row animate">
           <div className="col-33">
@@ -32,19 +32,10 @@ const Experience = () => {
             <span className="experience-para">October 2025 — Present</span>
           </div>
           <div className="col-1">
-            <p className="experience-para m-1">
-              As a Full Stack Developer at Epazz Tech, I design and build
-              scalable web applications by handling both frontend and backend
-              development. I collaborate with cross-functional teams to
-              transform ideas into high-performance and user-focused digital
-              products.
-              <br />
-              My work involves developing robust APIs, implementing secure
-              authentication and role-based systems, and crafting responsive,
-              intuitive UI/UX.
-              <br />I have contributed to multiple impactful projects,
-              including:
-            </p>
+            <p className="experience-para m-1">Full Stack Developer at Epazz Tech, handling both frontend and backend development.</p>
+            <p className="experience-para">I build scalable web applications and collaborate with cross-functional teams.</p>
+            <p className="experience-para">I develop robust APIs, implement secure authentication, and craft responsive UI/UX.</p>
+            <p className="experience-para">Projects include:</p>
             <p className="project_name">Othership:</p>
             <ul className="project_do_list">
               <li>
@@ -83,17 +74,10 @@ const Experience = () => {
             </span>
           </div>
           <div className="col-1">
-            <p className="experience-para m-1">
-              As a dedicated Software Engineer at Motive Coder, I work closely
-              with teams in this dynamic profession to convert design concepts
-              into responsive and interactive online applications. Focusing on
-              developing interactive and responsive web applications. My area of
-              expertise is using Express.js, React.js, Next.js, Node.js, and
-              MongoDB to create scalable, dynamic solutions that place the user
-              experience first.
-              <br />I have undertaken several notable projects during my tenure
-              at Motive Coder:
-            </p>
+            <p className="experience-para m-1">Software Engineer at Motive Coder, converting design concepts into responsive web applications.</p>
+            <p className="experience-para">I specialize in Express.js, React.js, Next.js, Node.js, and MongoDB.</p>
+            <p className="experience-para">I build scalable, dynamic solutions that prioritize user experience.</p>
+            <p className="experience-para">Notable projects:</p>
             <p className="project_name">BLZ Furniture:</p>
             <ul className="project_do_list">
               <li>

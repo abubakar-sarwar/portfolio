@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row footer-mt">
           <div className="col">
             <div className="contact">
-              <h1>Contact information</h1>
+              <h2>Contact information</h2>
               <p className="txt-muted">
                 Feel free to reach out to me any time. I prefer to talk over
                 email, especially since we may be a few time zones away.
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
           <div className="col">
             <div className="projects">
-              <h1>Latest Projects</h1>
+              <h2>Latest Projects</h2>
               <ul>
                 {projects
                   ?.filter((item) => !!item.liveLink)
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
           <div className="col">
             <div className="avail">
-              <h1>Current Availability</h1>
+              <h2>Current Availability</h2>
               <p className="txt-muted">
                 I’ll be happy to discuss new opportunities. Let’s get in touch!
               </p>

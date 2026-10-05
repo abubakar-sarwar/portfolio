@@ -54,12 +54,8 @@ const WhatsNew = () => {
             <div className="card-tilt lr-crc">
               <div className="content">
                 <div className="txt">
-                  <p>
-                    <strong>Get In Touch</strong>&nbsp;on professional
-                    platforms. Feel free to browse my other profiles for a
-                    broader view of my interests and contributions across the
-                    web.
-                  </p>
+                  <p><strong>Get In Touch</strong>&nbsp;on professional platforms.</p>
+                  <p>Browse my profiles for a broader view of my interests and contributions.</p>
                   <ul className="ic-link flx flx-c mt-1">
                     <li>
                       <Link

@@ -767,13 +767,13 @@ footer .sec-title .title {
   color: #0f141e;
   font-weight: 800;
 }
-footer h1 {
+footer h2 {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 @media (max-width: 1920px) {
-  footer h1 {
+  footer h2 {
     font-size: 26px;
   }
 }
@@ -1408,6 +1408,7 @@ footer .projects a:hover svg {
 }
 .about-page .about-para {
   font-size: 17px;
+  margin-bottom: 0.6rem;
   color: #474747;
 }
 .about-page .about-para:nth-child(1) {
@@ -1416,8 +1417,11 @@ footer .projects a:hover svg {
 .about-page .about-para:nth-child(2) {
   animation: animation-txt 1s linear;
 }
-.about-page .about-para:nth-child(4) {
+.about-page .about-para:nth-child(3) {
   animation: animation-txt 1.2s linear;
+}
+.about-page .about-para:nth-child(4) {
+  animation: animation-txt 1.4s linear;
 }
 .about-page .skill-title {
   font-size: 1.1rem;

@@ -17,19 +17,9 @@ const AboutPage = () => {
                   </h1>
                   <div className="ml-desc">
                     <p className="about-para">Hello, I&apos;m Muhammad Abu Bakar.</p>
-                    <p className="about-para">
-                      Passionate Software Engineer with 3+ years of
-                      experience in web development in the tech industry.
-                      Skilled at creating scalable and maintainable web apps
-                      while focusing on delivering excellent user experiences
-                      and optimizing application speed.
-                    </p>
-                    <br />
-                    <p className="about-para">
-                      My experience includes designing and implementing user
-                      interfaces, optimizing website performance, and ensuring
-                      seamless functionality across different browsers.
-                    </p>
+                    <p className="about-para">Software Engineer with 3+ years of experience in web development.</p>
+                    <p className="about-para">I build scalable and maintainable web apps with a focus on user experience and performance.</p>
+                    <p className="about-para">I design and implement user interfaces optimized for speed and cross-browser compatibility.</p>
                   </div>
                 </div>
               </div>

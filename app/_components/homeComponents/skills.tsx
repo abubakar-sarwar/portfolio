@@ -35,25 +35,13 @@ const Skills = () => {
                 <h2 className="title">Expertise</h2>
               </div>
               <h2 style={{ transitionDelay: ".15s" }}>Front-end Dev</h2>
-              <p style={{ transitionDelay: ".25s" }}>
-                Passionate about creating fast, responsive, and user-centric
-                interfaces. I specialize in building seamless digital
-                experiences that prioritize performance, accessibility, and
-                visual appeal. With over 2+ years of experience, I bring strong
-                expertise in UI architecture, component-driven design, and
-                modern frontend workflows.
-              </p>
+              <p style={{ transitionDelay: ".25s" }}>I build fast, responsive, and accessible user interfaces.</p>
+              <p style={{ transitionDelay: ".3s" }}>I specialize in UI architecture, component-driven design, and modern frontend workflows.</p>
               <h2 style={{ transitionDelay: ".35s" }} className="mt-1">
                 Back-end Dev
               </h2>
-              <p style={{ transitionDelay: ".45s" }}>
-                Skilled in building scalable, secure, and high-performance
-                server-side systems. I design and develop robust APIs, manage
-                databases efficiently, and ensure smooth integration between
-                front-end and back-end. With a strong foundation in application
-                architecture, authentication, and data handling, I deliver
-                backend solutions that are reliable and production-ready.
-              </p>
+              <p style={{ transitionDelay: ".45s" }}>I design and develop robust APIs, manage databases, and handle authentication.</p>
+              <p style={{ transitionDelay: ".5s" }}>I build backend systems that are scalable, secure, and production-ready.</p>
               <p className="mt-1">
                 <strong>Technologies</strong>:{" "}
                 {SKILLS.map((item) => item.label).join(", ")}
