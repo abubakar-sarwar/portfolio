@@ -65,7 +65,7 @@ const WhatsNew = () => {
                         aria-label="Github Profile"
                         title="Github Profile"
                       >
-                        <AiFillGithub />
+                        <AiFillGithub /><span className="sr-only">GitHub Profile</span>
                       </Link>
                     </li>
                     <li>
@@ -73,10 +73,10 @@ const WhatsNew = () => {
                         href="https://www.linkedin.com/in/muhammad-abubakar-b238a5298"
                         target="_blank"
                         className="ic-live lr-crc"
-                        aria-label="Linkedin Profile"
-                        title="Linkedin Profile"
+                        aria-label="LinkedIn Profile"
+                        title="LinkedIn Profile"
                       >
-                        <AiFillLinkedin />
+                        <AiFillLinkedin /><span className="sr-only">LinkedIn Profile</span>
                       </Link>
                     </li>
                   </ul>

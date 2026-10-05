@@ -37,6 +37,8 @@ const Nav = () => {
             width={160}
             height={50}
             className="ml-1 name-logo"
+            loading="eager"
+            priority
           ></Image>
         </Link>
       </div>

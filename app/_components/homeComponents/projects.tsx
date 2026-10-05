@@ -68,7 +68,7 @@ const Projects = () => {
                               className="ic-git"
                               aria-label={`${item?.title} GitHub Repository`}
                             >
-                              <AiFillGithub />
+                              <AiFillGithub /><span className="sr-only">{item?.title} GitHub Repository</span>
                             </Link>
                           </li>
                         ) : null}
@@ -80,7 +80,7 @@ const Projects = () => {
                               className="ic-live"
                               aria-label={`${item?.title} Live Demo`}
                             >
-                              <BsArrowRight />
+                              <BsArrowRight /><span className="sr-only">{item?.title} Live Demo</span>
                             </Link>
                           </li>
                         ) : null}

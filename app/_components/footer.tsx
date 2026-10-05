@@ -21,20 +21,20 @@ const Footer = () => {
                   <Link
                     target="_blank"
                     href="https://github.com/abubakar-sarwar"
-                    aria-label="Github Profile"
-                    title="Github Profile"
+                    aria-label="GitHub Profile"
+                    title="GitHub Profile"
                   >
-                    <AiFillGithub />
+                    <AiFillGithub /><span className="sr-only">GitHub Profile</span>
                   </Link>
                 </li>
                 <li>
                   <Link
                     target="_blank"
-                    aria-label="Linkedin Profile"
-                    title="Linkedin Profile"
+                    aria-label="LinkedIn Profile"
+                    title="LinkedIn Profile"
                     href="https://www.linkedin.com/in/muhammad-abubakar-b238a5298"
                   >
-                    <AiFillLinkedin />
+                    <AiFillLinkedin /><span className="sr-only">LinkedIn Profile</span>
                   </Link>
                 </li>
               </ul>
