@@ -24,16 +24,16 @@ const Nav = () => {
   return (
     <header className="flx flx-sb flx-c">
       <div className="logo">
-        <Link href="/">
+        <Link href="/" aria-label="Muhammad Abu Bakar — Home">
           <Image
             src="/assets/logo.png"
-            alt="brand"
+            alt="Muhammad Abu Bakar logo"
             width={50}
             height={50}
           ></Image>
           <Image
             src="/assets/logo.svg"
-            alt="brand"
+            alt="Muhammad Abu Bakar"
             width={160}
             height={50}
             className="ml-1 name-logo"
@@ -51,17 +51,15 @@ const Nav = () => {
         </button>
         <div className={`menu-container ${menuMobile ? "open-mobile" : ""}`}>
           <div className="menu">
-            <div className="menu-close">
-              <span onClick={() => setMenuMobile(false)}>
-                <FiX />
-              </span>
-            </div>
+            <button className="menu-close" onClick={() => setMenuMobile(false)} aria-label="Close menu">
+              <FiX />
+            </button>
             <ul className="menu-list flx flx-c flx-jc">
               <li>
                 <div className="link-bg">
                   <Image
                     src="/assets/projects.avif"
-                    alt="projects"
+                    alt="Expertise section"
                     width={500}
                     height={500}
                     quality={50}
@@ -79,7 +77,7 @@ const Nav = () => {
                 <div className="link-bg">
                   <Image
                     src="/assets/about-me.avif"
-                    alt="projects"
+                    alt="About Me section"
                     quality={50}
                     sizes="(max-width: 1024px) 30vw, 50vw"
                     width={500}
@@ -92,7 +90,7 @@ const Nav = () => {
                 <div className="link-bg">
                   <Image
                     src="/assets/experience.avif"
-                    alt="projects"
+                    alt="Projects section"
                     quality={50}
                     sizes="(max-width: 1024px) 30vw, 50vw"
                     width={500}

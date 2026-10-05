@@ -31,7 +31,7 @@ const Projects = () => {
                   >
                     <Image
                       src={item?.image}
-                      alt="project"
+                      alt={`${item?.title} project screenshot`}
                       width={100}
                       height={100}
                       className="img-fluid"
@@ -66,7 +66,7 @@ const Projects = () => {
                               href={item?.gitLink}
                               target="_blank"
                               className="ic-git"
-                              aria-label="Project Github Link"
+                              aria-label={`${item?.title} GitHub Repository`}
                             >
                               <AiFillGithub />
                             </Link>
@@ -78,7 +78,7 @@ const Projects = () => {
                               href={item?.liveLink}
                               target="_blank"
                               className="ic-live"
-                              aria-label="Project Live Link"
+                              aria-label={`${item?.title} Live Demo`}
                             >
                               <BsArrowRight />
                             </Link>

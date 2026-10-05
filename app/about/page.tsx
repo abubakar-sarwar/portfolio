@@ -30,7 +30,7 @@ const AboutPage = () => {
                     className="about-image"
                     width={200}
                     height={300}
-                    alt="about image"
+                    alt="Muhammad Abu Bakar at computer"
                   />
                 </div>
               </div>

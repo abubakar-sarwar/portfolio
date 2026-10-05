@@ -83,7 +83,7 @@ const WhatsNew = () => {
                 </div>
                 <Image
                   src="/assets/git_linkedin.avif"
-                  alt="instagram"
+                  alt="GitHub and LinkedIn profiles"
                   width={100}
                   height={100}
                   className="card-img"
