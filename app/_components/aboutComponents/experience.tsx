@@ -38,26 +38,11 @@ const Experience = () => {
             <p className="experience-para">Projects include:</p>
             <p className="project_name">Othership:</p>
             <ul className="project_do_list">
-              <li>
-                Designed and developed both frontend and backend of a multi-role
-                user application using modern web technologies.
-              </li>
-              <li>
-                Built and integrated scalable APIs, implementing secure
-                role-based access control for efficient user management.
-              </li>
-              <li>
-                Crafted responsive and intuitive UI/UX to ensure a seamless
-                experience across devices.
-              </li>
-              <li>
-                Optimized application performance and enforced strong security
-                practices for reliability and data protection.
-              </li>
-              <li>
-                Followed best practices for clean architecture, maintainability,
-                and scalability, resulting in a robust and efficient system.
-              </li>
+              <li>Designed and developed frontend and backend of a multi-role application.</li>
+              <li>Built scalable APIs with secure role-based access control.</li>
+              <li>Crafted responsive UI/UX for seamless cross-device experience.</li>
+              <li>Optimized performance and enforced security best practices.</li>
+              <li>Followed clean architecture principles for maintainability and scalability.</li>
             </ul>
           </div>
         </div>
@@ -80,96 +65,34 @@ const Experience = () => {
             <p className="experience-para">Notable projects:</p>
             <p className="project_name">BLZ Furniture:</p>
             <ul className="project_do_list">
-              <li>
-                Developed a modern e-commerce platform using the latest web
-                technologies, handling both frontend and backend architecture.
-              </li>
-              <li>
-                Built scalable and secure APIs, implementing authentication and
-                role-based access for efficient user and admin management.
-              </li>
-              <li>
-                Designed and optimized a responsive, user-friendly UI/UX to
-                enhance customer experience across all devices.
-              </li>
-              <li>
-                Improved performance through efficient data handling, caching
-                strategies, and optimized rendering.
-              </li>
-              <li>
-                Followed best practices for maintainability and scalability,
-                ensuring a fast, reliable, and production-ready system.
-              </li>
+              <li>Developed a full-stack e-commerce platform handling frontend and backend.</li>
+              <li>Built secure APIs with authentication and role-based access control.</li>
+              <li>Designed responsive UI/UX for optimal customer experience across devices.</li>
+              <li>Improved performance via caching strategies and optimized rendering.</li>
             </ul>
             <p className="project_name">KAF:</p>
             <ul className="project_do_list">
-              <li>
-                Developed the backend of a multi-role user application using
-                modern web technologies.
-              </li>
-              <li>
-                Ensured robust security and optimized performance for a seamless
-                experience across various devices.
-              </li>
-              <li>
-                Implemented API endpoints and role-based access control to
-                enhance user engagement and functionality.
-              </li>
-              <li>
-                Followed best practices for code maintainability and
-                scalability, ensuring a resilient and efficient codebase.
-              </li>
+              <li>Developed the backend of a multi-role user application.</li>
+              <li>Implemented API endpoints and role-based access control.</li>
+              <li>Ensured robust security and optimized cross-device performance.</li>
             </ul>
             <p className="project_name">Dream Home:</p>
             <ul className="project_do_list">
-              <li>
-                Contributed to both the front-end and back-end development of an
-                e-commerce furniture application.
-              </li>
-              <li>
-                Implemented discount functionalities and integrated and created
-                part of a RESTful API using Node.js and MongoDB for efficient
-                data management.
-              </li>
-              <li>
-                Contributed to performance optimization and maintainability for
-                a scalable and robust platform.
-              </li>
+              <li>Contributed to frontend and backend of an e-commerce furniture app.</li>
+              <li>Built RESTful API endpoints using Node.js and MongoDB.</li>
+              <li>Implemented discount features and optimized platform performance.</li>
             </ul>
             <p className="project_name">GuideLine:</p>
             <ul className="project_do_list">
-              <li>
-                Collaboratively developed front-end components within a team
-                while independently handling backend development and integration
-                for a consultancy application.
-              </li>
-              <li>
-                Implemented back-end functionalities and integrated various
-                services to ensure seamless communication and data flow.
-              </li>
-              <li>
-                Leveraged both front-end and back-end expertise to deliver a
-                cohesive and user-friendly consultancy platform.
-              </li>
+              <li>Built frontend components collaboratively and handled backend independently.</li>
+              <li>Integrated backend services to ensure seamless data flow.</li>
+              <li>Delivered a cohesive full-stack consultancy platform.</li>
             </ul>
             <p className="project_name">Just Imagine:</p>
             <ul className="project_do_list">
-              <li>
-                Developed the front-end of a multi-role user application using
-                modern web technologies.
-              </li>
-              <li>
-                Ensured full responsiveness, delivering a seamless experience
-                across various devices and screen sizes.
-              </li>
-              <li>
-                Implemented dynamic user interfaces and role-based features to
-                enhance user engagement and accessibility.
-              </li>
-              <li>
-                Utilized best practices for performance optimization and
-                maintainability, ensuring a robust and scalable codebase.
-              </li>
+              <li>Developed the frontend of a multi-role user application.</li>
+              <li>Implemented dynamic interfaces and role-based UI features.</li>
+              <li>Ensured full responsiveness across all devices and screen sizes.</li>
             </ul>
           </div>
         </div>

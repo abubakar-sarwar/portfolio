@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Othership",
     description:
-      "Contributed to the development and enhancement of a Hybrid Workspace Management System (HWMS) for Othership, improving workspace booking, employee scheduling, and overall system performance. Worked on both frontend and backend to implement scalable APIs, refine role-based access control, and enhance UI/UX for a seamless user experience.",
+      "Contributed to Othership's Hybrid Workspace Management System improving booking, scheduling, APIs, role-based access, and UI/UX across frontend and backend.",
     technologies: [
       "Nest.js",
       "MongoDB",
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "Car Tracking System",
     description:
-      "A full-featured Car Tracking System designed for seamless fleet management, offering real-time vehicle tracking with Google Maps integration, live video dashcam feed, instant location-based alerts, and comprehensive management of cars, drivers, devices, and reports. Built for enhanced control, safety, and efficiency.",
+      "Full-featured fleet management system with real-time GPS tracking, live dashcam feed, location alerts, and comprehensive driver and vehicle management.",
     technologies: ["Next.js", "Tailwindcss", "TypeScript", "JavaScript"],
     image: "/assets/car_tracking_system.avif",
     gitLink: "",
@@ -50,7 +50,7 @@ export const projects = [
   {
     title: "Next-Simple-Select",
     description:
-      "I developed and maintain the Next-Simple-Select npm package, designed to deliver a lightweight, customizable, and efficient select component for Next.js applications, ensuring developers can create seamless user experiences with minimal effort.",
+      "Lightweight, customizable npm select component for Next.js, built for seamless developer experience and minimal setup.",
     technologies: [
       "React.js",
       "Tailwindcss",
@@ -99,7 +99,7 @@ export const projects = [
   {
     title: "DND TODO",
     description:
-      'I developed "DND TODO", a drag-and-drop to-do list application that supports multiple projects, theme customization, and intuitive task management, showcasing my ability to create versatile and user-friendly digital tools.',
+      "Drag-and-drop task manager with multi-project support, theme customization, and intuitive task management.",
     technologies: ["Next", "Tailwindcss", "Redux"],
     image: "/assets/project_06.avif",
     gitLink: "https://github.com/abubakar-sarwar/dnd-todo-custom",
@@ -126,7 +126,7 @@ export const projects = [
   {
     title: "Just Imagine",
     description:
-      "A platform where freelancers and recruiters connect! Transform your project ideas into reality with our innovative online service, bringing together top talent and ambitious projects in one seamless experience.",
+      "Platform connecting freelancers and recruiters, matching top talent with ambitious projects in one seamless experience.",
     technologies: ["Next", "Redux ToolKit", "Node js", "MongoDB"],
     image: "/assets/just-Imagine.avif",
     gitLink: "",
