@@ -31,6 +31,8 @@ const AboutPage = () => {
                     width={200}
                     height={300}
                     alt="Muhammad Abu Bakar at computer"
+                    loading="eager"
+                    priority
                   />
                 </div>
               </div>

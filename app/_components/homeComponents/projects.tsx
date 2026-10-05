@@ -18,7 +18,7 @@ const Projects = () => {
           const isRight = index % 2 === 0;
 
           return (
-            <div
+            <article
               className={`featured ${isRight ? "right-flow" : "left-flow"}`}
               key={index}
             >
@@ -89,7 +89,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </article>
           );
         })}
       </div>

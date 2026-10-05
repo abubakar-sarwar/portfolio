@@ -16,6 +16,7 @@ const Footer = () => {
                 Feel free to reach out to me any time. I prefer to talk over
                 email, especially since we may be a few time zones away.
               </p>
+              <nav aria-label="Social media profiles">
               <ul className="flx">
                 <li>
                   <Link
@@ -38,11 +39,13 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
+              </nav>
             </div>
           </div>
           <div className="col">
             <div className="projects">
               <h2>Latest Projects</h2>
+              <nav aria-label="Latest projects">
               <ul>
                 {projects
                   ?.filter((item) => !!item.liveLink)
@@ -59,6 +62,7 @@ const Footer = () => {
                     </li>
                   ))}
               </ul>
+              </nav>
             </div>
           </div>
           <div className="col">

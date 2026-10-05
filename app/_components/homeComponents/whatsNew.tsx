@@ -33,7 +33,7 @@ const WhatsNew = () => {
                     target="_blank"
                     className="mt-1 lr-crc"
                   >
-                    Discover My Insta&nbsp;
+                    View Instagram ( @web_dev_pk )&nbsp;
                     <BsArrowRight />
                   </Link>
                 </div>
@@ -41,7 +41,7 @@ const WhatsNew = () => {
                   src="/assets/Insta-card.avif"
                   width={100}
                   height={100}
-                  alt="instagram"
+                  alt="Muhammad Abu Bakar Instagram feed"
                   className="card-img"
                   unoptimized
                   loading="lazy"

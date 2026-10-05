@@ -216,7 +216,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body className={`${poppins.className}`}>
         <script
           type="application/ld+json"
