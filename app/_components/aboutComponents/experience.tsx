@@ -36,7 +36,7 @@ const Experience = () => {
             <p className="experience-para">I build scalable web applications and collaborate with cross-functional teams.</p>
             <p className="experience-para">I develop robust APIs, implement secure authentication, and craft responsive UI/UX.</p>
             <p className="experience-para">Projects include:</p>
-            <p className="project_name">Othership:</p>
+            <h3 className="project_name">Othership</h3>
             <ul className="project_do_list">
               <li>Designed and developed frontend and backend of a multi-role application.</li>
               <li>Built scalable APIs with secure role-based access control.</li>
@@ -63,32 +63,32 @@ const Experience = () => {
             <p className="experience-para">I specialize in Express.js, React.js, Next.js, Node.js, and MongoDB.</p>
             <p className="experience-para">I build scalable, dynamic solutions that prioritize user experience.</p>
             <p className="experience-para">Notable projects:</p>
-            <p className="project_name">BLZ Furniture:</p>
+            <h3 className="project_name">BLZ Furniture</h3>
             <ul className="project_do_list">
               <li>Developed a full-stack e-commerce platform handling frontend and backend.</li>
               <li>Built secure APIs with authentication and role-based access control.</li>
               <li>Designed responsive UI/UX for optimal customer experience across devices.</li>
               <li>Improved performance via caching strategies and optimized rendering.</li>
             </ul>
-            <p className="project_name">KAF:</p>
+            <h3 className="project_name">KAF</h3>
             <ul className="project_do_list">
               <li>Developed the backend of a multi-role user application.</li>
               <li>Implemented API endpoints and role-based access control.</li>
               <li>Ensured robust security and optimized cross-device performance.</li>
             </ul>
-            <p className="project_name">Dream Home:</p>
+            <h3 className="project_name">Dream Home</h3>
             <ul className="project_do_list">
               <li>Contributed to frontend and backend of an e-commerce furniture app.</li>
               <li>Built RESTful API endpoints using Node.js and MongoDB.</li>
               <li>Implemented discount features and optimized platform performance.</li>
             </ul>
-            <p className="project_name">GuideLine:</p>
+            <h3 className="project_name">GuideLine</h3>
             <ul className="project_do_list">
               <li>Built frontend components collaboratively and handled backend independently.</li>
               <li>Integrated backend services to ensure seamless data flow.</li>
               <li>Delivered a cohesive full-stack consultancy platform.</li>
             </ul>
-            <p className="project_name">Just Imagine:</p>
+            <h3 className="project_name">Just Imagine</h3>
             <ul className="project_do_list">
               <li>Developed the frontend of a multi-role user application.</li>
               <li>Implemented dynamic interfaces and role-based UI features.</li>

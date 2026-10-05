@@ -314,6 +314,30 @@ button:disabled,
   border: 0;
 }
 
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-to-main:focus {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  background: #fff;
+  color: #000;
+  z-index: 9999;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  outline: 2px solid #000;
+}
+
 .sec-pd {
   padding-top: 140px;
 }

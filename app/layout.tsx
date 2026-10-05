@@ -230,11 +230,65 @@ export default function RootLayout({
             __html: JSON.stringify(webPageLd).replace(/</g, '\\u003c'),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What technologies does Muhammad Abu Bakar specialize in?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Muhammad Abu Bakar specializes in Next.js, React.js, Node.js, Nest.js, TypeScript, MongoDB, and Laravel."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is Muhammad Abu Bakar available for freelance or new opportunities?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Muhammad Abu Bakar is open to discussing new opportunities. You can reach out via LinkedIn or GitHub."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How many years of experience does Muhammad Abu Bakar have?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Muhammad Abu Bakar has 3+ years of professional experience in full-stack web development."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Where does Muhammad Abu Bakar currently work?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Muhammad Abu Bakar currently works as a Full Stack Developer at Epazz, Inc in Lahore, Pakistan."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What kind of projects has Muhammad Abu Bakar worked on?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Muhammad Abu Bakar has worked on all kinds of web projects, ranging from full-stack applications and SaaS platforms to open-source packages and client-facing products across various industries."
+                  }
+                }
+              ]
+            }).replace(/</g, '\\u003c'),
+          }}
+        />
+        <a href="#main-content" className="skip-to-main">
+          Skip to main content
+        </a>
         <Analytics />
         <SpeedInsights />
         <CursorCircle />
         <Nav />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <Footer />
       </body>
     </html>
