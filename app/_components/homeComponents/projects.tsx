@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="about sec-pd">
       <div className="container">
         <div className="sec-title">
-          <h1 className="title animate animate-top">Case studies</h1>
+          <h2 className="title animate animate-top">Case studies</h2>
         </div>
         {projects?.map((item: ProjectType, index) => {
           const isRight = index % 2 === 0;
@@ -51,7 +51,7 @@ const Projects = () => {
                     }`}
                   >
                     <span>Featured Project</span>
-                    <h1>{item?.title}</h1>
+                    <h2>{item?.title}</h2>
                     <p className="m-2">{item?.description}</p>
                     <ul className="item-tool">
                       {item?.technologies?.map((tec: string, i) => (

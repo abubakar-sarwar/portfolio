@@ -32,7 +32,7 @@ const Skills = () => {
           <div className="col-3 md-full">
             <div className="skills-details animate">
               <div className="sec-title">
-                <h1 className="title">Expertise</h1>
+                <h2 className="title">Expertise</h2>
               </div>
               <h2 style={{ transitionDelay: ".15s" }}>Front-end Dev</h2>
               <p style={{ transitionDelay: ".25s" }}>

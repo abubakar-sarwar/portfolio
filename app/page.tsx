@@ -77,21 +77,20 @@ export default function Home() {
                     <h2 className="header-light mt-1">
                       High-performing professional with 3+ years of experience
                       delivering high-impact work in the software development
-                      industry. I specialize in creating scalable, fast, and
-                      user-focused solutions that drive real business impact.
+                      industry.
+                    </h2>
+                    <h2 className="header-light mt-1">
+                      I specialize in building scalable, fast, and user-focused
+                      solutions that drive real business impact.
                     </h2>
                     <nav className="links flx flx-c">
-                      <h3>
-                        <a href="#Projects" className="scroll-to special">
-                          View Projects
-                        </a>
-                      </h3>
+                      <Link href="#Projects" className="scroll-to special">
+                        View Projects
+                      </Link>
                       <span className="ml-1 mr-1">or</span>
-                      <h3>
-                        <Link href="/about" className="internal special">
-                          Read About Me
-                        </Link>
-                      </h3>
+                      <Link href="/about" className="internal special">
+                        Read About Me
+                      </Link>
                     </nav>
                   </div>
                 </div>
