@@ -1,13 +1,14 @@
 import Nav from "@/app/_components/nav";
 import Footer from "@/app/_components/footer";
 import type { Metadata, Viewport } from "next";
-import { Person, WebPage, WithContext } from "schema-dts";
+import { Organization, Person, WebPage, WithContext } from "schema-dts";
 import { Analytics } from "@vercel/analytics/next";
 import CursorCircle from "@/app/_components/cursorCircle";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "@/css/styles.css";
 import { Poppins } from "next/font/google";
+import Link from "next/link";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -215,9 +216,29 @@ export default function RootLayout({
     ],
   };
 
+  const orgLd: WithContext<Organization> = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Muhammad Abu Bakar",
+    "url": "https://abubakarsarwar.vercel.app/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://abubakarsarwar.vercel.app/assets/logo.png",
+    },
+    "image": "https://abubakarsarwar.vercel.app/assets/abubakarsarwar.png",
+    "description": "Full-stack Software Engineer portfolio of Muhammad Abu Bakar.",
+    "sameAs": [
+      "https://www.linkedin.com/in/muhammad-abubakar-b238a5298",
+      "https://github.com/abubakar-sarwar",
+    ],
+  };
+
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body className={`${poppins.className}`}>
+        <Link href="#main-content" className="skip-to-main">
+          Skip to main content
+        </Link>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -228,6 +249,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(webPageLd).replace(/</g, '\\u003c'),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(orgLd).replace(/</g, '\\u003c'),
           }}
         />
         <script
@@ -281,9 +308,6 @@ export default function RootLayout({
             }).replace(/</g, '\\u003c'),
           }}
         />
-        <a href="#main-content" className="skip-to-main">
-          Skip to main content
-        </a>
         <Analytics />
         <SpeedInsights />
         <CursorCircle />
