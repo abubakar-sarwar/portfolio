@@ -1,7 +1,7 @@
 export const dynamic = "force-dynamic";
 import { NextResponse } from "next/server";
 
-const staticLinks = ["/", "/about"];
+const staticLinks = ["/", "/about", "/services"];
 const SITE_DOMAIN_URL = "https://abubakarsarwar.vercel.app";
 
 export async function GET() {

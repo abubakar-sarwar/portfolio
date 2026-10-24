@@ -21,6 +21,7 @@ export async function GET() {
 ## Core Pages
 - [Home](https://abubakarsarwar.vercel.app/) - Portfolio overview, featured projects, and expertise.
 - [About](https://abubakarsarwar.vercel.app/about) - Background, skills, and work experience.
+- [Services](https://abubakarsarwar.vercel.app/services) - Web development, API engineering, AI integration, and consulting services.
 
 ## Professional Profiles
 - [LinkedIn](https://www.linkedin.com/in/muhammad-abubakar-b238a5298) - Professional profile and work history.

@@ -53,7 +53,11 @@ const Nav = () => {
         </button>
         <div className={`menu-container ${menuMobile ? "open-mobile" : ""}`}>
           <div className="menu">
-            <button className="menu-close" onClick={() => setMenuMobile(false)} aria-label="Close menu">
+            <button
+              className="menu-close"
+              onClick={() => setMenuMobile(false)}
+              aria-label="Close menu"
+            >
               <FiX />
             </button>
             <ul className="menu-list flx flx-c flx-jc">
@@ -70,7 +74,7 @@ const Nav = () => {
                 </div>
                 <Link
                   onClick={() => scrollToElement("Experties")}
-                  href={pathname === "/" ? "#Experties" : "/"}
+                  href="/#Experties"
                 >
                   expertise
                 </Link>
@@ -91,6 +95,19 @@ const Nav = () => {
               <li>
                 <div className="link-bg">
                   <Image
+                    src="/assets/services-01.avif"
+                    alt="Services section"
+                    quality={50}
+                    sizes="(max-width: 1024px) 30vw, 50vw"
+                    width={500}
+                    height={500}
+                  />
+                </div>
+                <Link href="/services">Services</Link>
+              </li>
+              <li>
+                <div className="link-bg">
+                  <Image
                     src="/assets/experience.avif"
                     alt="Projects section"
                     quality={50}
@@ -101,7 +118,7 @@ const Nav = () => {
                 </div>
                 <Link
                   onClick={() => scrollToElement("Projects")}
-                  href={pathname === "/" ? "#Projects" : "/"}
+                  href="/#Projects"
                 >
                   Projects
                 </Link>
@@ -109,7 +126,7 @@ const Nav = () => {
               <li>
                 <Link
                   onClick={() => scrollToElement("Contact")}
-                  href={pathname === "/" ? "#Contact" : "/"}
+                  href="/#Contact"
                 >
                   Contact
                 </Link>

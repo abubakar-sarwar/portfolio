@@ -81,10 +81,10 @@ export const projects = [
     description:
       'I developed the backend for "KAF", focusing on optimizing performance, security, and scalability to ensure a smooth and efficient user experience across the platform.',
     technologies: [
-      "Next",
+      "Node.js",
+      "Next.js",
       "Tailwindcss",
       "Redux",
-      "Node",
       "Express",
       "MongoDB",
     ],
@@ -96,7 +96,7 @@ export const projects = [
     title: "Thrillquest",
     description:
       'I created "ThrillQuest," a GSAP-animated website, diving deep into GSAP to engineer captivating animations that enhance user engagement and experience for this personal project.',
-    technologies: ["Next", "GSAP", "Tailwindcss"],
+    technologies: ["Next.js", "GSAP", "Tailwindcss"],
     image: "/assets/project_05.avif",
     gitLink: "https://github.com/abubakar-sarwar/gsap-animation",
     liveLink: "https://thrillquest.vercel.app/",
@@ -105,7 +105,7 @@ export const projects = [
     title: "Dream Home",
     description:
       "I crafted 'Dream Home', a furniture e-commerce site in collaboration with Dearm Home Project, showcasing my skills in creating compelling online platforms.",
-    technologies: ["Next", "Node", "Express", "MongoDB", "Redux"],
+    technologies: ["Next.js", "Node.js", "Express.js", "MongoDB", "Redux"],
     image: "/assets/project_02.avif",
     gitLink: "",
     liveLink: "",
@@ -114,7 +114,7 @@ export const projects = [
     title: "DND TODO",
     description:
       "Drag-and-drop task manager with multi-project support, theme customization, and intuitive task management.",
-    technologies: ["Next", "Tailwindcss", "Redux"],
+    technologies: ["Next.js", "Tailwindcss", "Redux"],
     image: "/assets/project_06.avif",
     gitLink: "https://github.com/abubakar-sarwar/dnd-todo-custom",
     liveLink: "https://dnd-todo-custom.vercel.app/",
@@ -123,7 +123,7 @@ export const projects = [
     title: "Plates for Cars",
     description:
       "A platform where automotive enthusiasts unite! Personalize your ride's identity with our cutting-edge online service for designing custom number plates.",
-    technologies: ["React", "Laravel", "MySQL"],
+    technologies: ["React.js", "Laravel", "MySQL"],
     image: "/assets/project_03.avif",
     gitLink: "",
     liveLink: "",
@@ -132,7 +132,7 @@ export const projects = [
     title: "GuideLine",
     description:
       'I developed "GUIDELINE", a web application for travel advice, where I demonstrated my expertise in creating user-centered digital solutions.',
-    technologies: ["Next", "Node", "Express", "MongoDB", "Redux"],
+    technologies: ["Next.js", "Node.js", "Express.js", "MongoDB", "Redux"],
     image: "/assets/project_04.avif",
     gitLink: "",
     liveLink: "",
@@ -141,7 +141,7 @@ export const projects = [
     title: "Just Imagine",
     description:
       "Platform connecting freelancers and recruiters, matching top talent with ambitious projects in one seamless experience.",
-    technologies: ["Next", "Redux ToolKit", "Node js", "MongoDB"],
+    technologies: ["Next.js", "Redux ToolKit", "Node.js", "MongoDB"],
     image: "/assets/just-Imagine.avif",
     gitLink: "",
     liveLink: "",
