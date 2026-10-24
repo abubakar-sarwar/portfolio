@@ -108,7 +108,7 @@ export const projects = [
     technologies: ["Next", "Node", "Express", "MongoDB", "Redux"],
     image: "/assets/project_02.avif",
     gitLink: "",
-    liveLink: "https://gldreamhome.com/",
+    liveLink: "",
   },
   {
     title: "DND TODO",
@@ -126,7 +126,7 @@ export const projects = [
     technologies: ["React", "Laravel", "MySQL"],
     image: "/assets/project_03.avif",
     gitLink: "",
-    liveLink: "https://boostremap.co.uk/",
+    liveLink: "",
   },
   {
     title: "GuideLine",
