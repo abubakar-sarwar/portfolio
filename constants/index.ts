@@ -15,6 +15,20 @@ export const projects = [
     liveLink: "https://odw.othership.com/",
   },
   {
+    title: "Amazetec",
+    description:
+      "Built a full portfolio website for Amazetec, a business client, delivering a modern, performant web presence tailored to their brand and services.",
+    technologies: [
+      "Vite",
+      "MongoDB",
+      "Tailwindcss",
+      "TypeScript",
+    ],
+    image: "/assets/amazetec.avif",
+    gitLink: "",
+    liveLink: "https://www.amazetec.ai/",
+  },
+  {
     title: "BLZ Furniture",
     description:
       "I developed 'BLZ Furniture', a modern furniture e-commerce platform, highlighting my expertise in building seamless, user-focused online shopping experiences.",
