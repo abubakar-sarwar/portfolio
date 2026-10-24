@@ -210,6 +210,14 @@
       border-bottom: 2px solid transparent;
       transition: border 0.2s cubic-bezier(0.3, 0, 0.5, 1);
 
+      @include breakpoint-down(xlarge) {
+        font-size: 22px;
+      }
+
+      @include breakpoint-down(small) {
+        font-size: 18px;
+      }
+
       svg {
         transition: transform .2s cubic-bezier(.4, 0, .2, 1);
       }
